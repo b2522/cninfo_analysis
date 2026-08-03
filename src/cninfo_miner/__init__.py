@@ -1,0 +1,1 @@
+"""CNINFO announcement mining application."""
