@@ -1,0 +1,91 @@
+name: Collect announcements
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-announcements
+  cancel-in-progress: false
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: python -m pip install .
+
+      - name: Run collection and analysis
+        env:
+          PYTHONPATH: src
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+        run: |
+          for name in LLM_BASE_URL LLM_API_KEY LLM_MODEL; do
+            if [ -z "${!name}" ]; then
+              echo "Required repository secret is missing: $name" >&2
+              exit 1
+            fi
+          done
+          python - <<'PY'
+          import asyncio
+          import os
+          from datetime import UTC, datetime
+
+          from cninfo_miner.llm import LlmConfig
+          from cninfo_miner.main import DEFAULT_DATABASE_PATH, manual_collection_range
+          from cninfo_miner.repository import SQLiteRepository
+          from cninfo_miner.worker import AnalysisWorker, CollectionWorker
+
+
+          async def run() -> None:
+              repository = SQLiteRepository(DEFAULT_DATABASE_PATH)
+              repository.recover_interrupted_tasks()
+              repository.requeue_dismissed_termination_notices()
+              repository.requeue_classification_corrections()
+
+              start_date, end_date = manual_collection_range(datetime.now(UTC))
+              collection_task = repository.create_task(start_date, end_date, task_type="collection")
+              await CollectionWorker(repository).run(collection_task["id"], start_date, end_date)
+
+              analysis_task = repository.create_task(task_type="analysis")
+              config = LlmConfig(
+                  base_url=os.environ["LLM_BASE_URL"],
+                  api_key=os.environ["LLM_API_KEY"],
+                  model=os.environ["LLM_MODEL"],
+              )
+              await AnalysisWorker(repository).run(analysis_task["id"], config)
+
+
+          asyncio.run(run())
+          PY
+
+      - name: Commit SQLite updates
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/cninfo_announcement_mining.sqlite3
+          if git diff --cached --quiet; then
+            echo "SQLite database is unchanged."
+            exit 0
+          fi
+          git commit -m "chore(data): update announcements"
+          git push origin "HEAD:${DEFAULT_BRANCH}"
