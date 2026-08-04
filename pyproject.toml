@@ -5,4 +5,4 @@ requires-python = ">=3.13"
 dependencies = ["fastapi", "uvicorn", "httpx", "pymongo>=4.9,<4.10", "PyMuPDF"]
 
 [tool.vercel]
-entrypoint = "cninfo_miner.main:app"
+entrypoint = "src.cninfo_miner.main:app"
