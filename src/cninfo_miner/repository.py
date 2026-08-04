@@ -177,12 +177,19 @@ class MemoryRepository:
 
 
 class SQLiteRepository:
-    def __init__(self, path: str | Path) -> None:
+    def __init__(self, path: str | Path, *, read_only: bool = False) -> None:
         database_path = Path(path)
-        database_path.parent.mkdir(parents=True, exist_ok=True)
-        self._connection = sqlite3.connect(database_path, check_same_thread=False)
+        self.read_only = read_only
+        if read_only:
+            database_uri = f"{database_path.resolve().as_uri()}?mode=ro"
+            self._connection = sqlite3.connect(database_uri, uri=True, check_same_thread=False)
+        else:
+            database_path.parent.mkdir(parents=True, exist_ok=True)
+            self._connection = sqlite3.connect(database_path, check_same_thread=False)
         self._connection.row_factory = sqlite3.Row
         self._lock = RLock()
+        if read_only:
+            return
         with self._lock:
             self._connection.execute("PRAGMA journal_mode = WAL")
             self._connection.execute("PRAGMA synchronous = NORMAL")

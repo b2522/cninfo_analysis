@@ -114,6 +114,7 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
     app = FastAPI(title="公告掘金", version="0.2.0", lifespan=lifespan)
     app.state.repository = repository
     app.state.run_tasks = run_tasks
+    app.state.read_only = bool(getattr(repository, "read_only", False))
     app.state.scheduler_stop = threading.Event()
     app.mount("/assets", StaticFiles(directory=STATIC_DIR), name="assets")
 
@@ -126,8 +127,13 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         storage = "memory-test" if isinstance(repository, MemoryRepository) else "sqlite"
         return {"status": "ok", "storage": storage}
 
+    def require_writable_storage() -> None:
+        if app.state.read_only:
+            raise HTTPException(status_code=403, detail="Vercel 部署为只读模式，请等待 GitHub Actions 更新数据")
+
     @app.post("/api/collections", status_code=201)
     async def create_collection(request: CollectionRequest) -> dict:
+        require_writable_storage()
         if request.start_date is None and request.end_date is None:
             start_date, end_date = manual_collection_range(datetime.now(UTC))
         elif request.start_date is None or request.end_date is None:
@@ -148,6 +154,7 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
 
     @app.put("/api/settings/llm")
     async def save_llm_settings(config: BrowserLlmConfig) -> dict[str, bool]:
+        require_writable_storage()
         if not all((config.base_url, config.api_key, config.model)):
             raise HTTPException(status_code=422, detail="请完整填写 API 地址、密钥和模型名")
         repository.save_llm_config(config.model_dump())
@@ -155,10 +162,12 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
 
     @app.delete("/api/settings/llm", status_code=204)
     async def clear_llm_settings() -> None:
+        require_writable_storage()
         repository.clear_llm_config()
 
     @app.post("/api/analyses", status_code=201)
     async def create_analysis(request: AnalysisRequest) -> dict:
+        require_writable_storage()
         task = repository.create_task(task_type="analysis")
         if app.state.run_tasks:
             _start_analysis(repository, task, LlmConfig(**request.llm.model_dump()))
@@ -182,5 +191,8 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
     return app
 
 
-app = create_app()
+def create_vercel_app() -> FastAPI:
+    repository = SQLiteRepository(DEFAULT_DATABASE_PATH, read_only=True)
+    return create_app(run_tasks=False, repository=repository)
+
 
