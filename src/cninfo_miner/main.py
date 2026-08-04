@@ -1,4 +1,4 @@
-"""FastAPI application and local-only browser API."""
+"""FastAPI application for collecting and displaying CNINFO announcements."""
 
 from __future__ import annotations
 
@@ -7,7 +7,6 @@ from contextlib import asynccontextmanager
 import threading
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
-from typing import Literal
 from zoneinfo import ZoneInfo
 
 from fastapi import FastAPI, HTTPException
@@ -15,28 +14,17 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from .llm import LlmConfig
 from .repository import MemoryRepository, SQLiteRepository
-from .worker import AnalysisWorker, CollectionWorker
+from .worker import CollectionWorker
 
 STATIC_DIR = Path(__file__).parent / "static"
 DEFAULT_DATABASE_PATH = Path(__file__).resolve().parents[2] / "data" / "cninfo_announcement_mining.sqlite3"
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 
 
-class BrowserLlmConfig(BaseModel):
-    base_url: str = ""
-    api_key: str = ""
-    model: str = ""
-
-
 class CollectionRequest(BaseModel):
     start_date: date | None = None
     end_date: date | None = None
-
-
-class AnalysisRequest(BaseModel):
-    llm: BrowserLlmConfig
 
 
 def daily_collection_range(today: date) -> tuple[str, str]:
@@ -63,23 +51,10 @@ async def run_scheduled_cycle(repository: object, now: datetime) -> None:
     start_date, end_date = manual_collection_range(now)
     collection_task = repository.create_task(start_date, end_date, task_type="collection")
     await CollectionWorker(repository).run(collection_task["id"], start_date, end_date)
-    config = repository.get_llm_config()
-    if not config:
-        return
-    analysis_task = repository.create_task(task_type="analysis")
-    await AnalysisWorker(repository).run(analysis_task["id"], LlmConfig(**config))
 
 
 def _start_scheduled_cycle(repository: object, now: datetime) -> None:
     thread = threading.Thread(target=lambda: asyncio.run(run_scheduled_cycle(repository, now)), daemon=True)
-    thread.start()
-
-
-def _start_analysis(repository: object, task: dict, config: LlmConfig) -> None:
-    thread = threading.Thread(
-        target=lambda: asyncio.run(AnalysisWorker(repository).run(task["id"], config)),
-        daemon=True,
-    )
     thread.start()
 
 
@@ -88,8 +63,6 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         repository = SQLiteRepository(DEFAULT_DATABASE_PATH) if run_tasks else MemoryRepository()
         if isinstance(repository, SQLiteRepository):
             repository.recover_interrupted_tasks()
-            repository.requeue_dismissed_termination_notices()
-            repository.requeue_classification_corrections()
 
     @asynccontextmanager
     async def lifespan(application: FastAPI):
@@ -111,7 +84,7 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         finally:
             application.state.scheduler_stop.set()
 
-    app = FastAPI(title="公告掘金", version="0.2.0", lifespan=lifespan)
+    app = FastAPI(title="公告掘金", version="0.3.0", lifespan=lifespan)
     app.state.repository = repository
     app.state.run_tasks = run_tasks
     app.state.read_only = bool(getattr(repository, "read_only", False))
@@ -129,7 +102,7 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
 
     def require_writable_storage() -> None:
         if app.state.read_only:
-            raise HTTPException(status_code=403, detail="Vercel 部署为只读模式，请等待 GitHub Actions 更新数据")
+            raise HTTPException(status_code=403, detail="Vercel 部署为只读模式，请在 GitHub Actions 中执行抓取")
 
     @app.post("/api/collections", status_code=201)
     async def create_collection(request: CollectionRequest) -> dict:
@@ -152,27 +125,6 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         start_date, end_date = manual_collection_range(datetime.now(UTC))
         return {"start_date": start_date, "end_date": end_date}
 
-    @app.put("/api/settings/llm")
-    async def save_llm_settings(config: BrowserLlmConfig) -> dict[str, bool]:
-        require_writable_storage()
-        if not all((config.base_url, config.api_key, config.model)):
-            raise HTTPException(status_code=422, detail="请完整填写 API 地址、密钥和模型名")
-        repository.save_llm_config(config.model_dump())
-        return {"configured": True}
-
-    @app.delete("/api/settings/llm", status_code=204)
-    async def clear_llm_settings() -> None:
-        require_writable_storage()
-        repository.clear_llm_config()
-
-    @app.post("/api/analyses", status_code=201)
-    async def create_analysis(request: AnalysisRequest) -> dict:
-        require_writable_storage()
-        task = repository.create_task(task_type="analysis")
-        if app.state.run_tasks:
-            _start_analysis(repository, task, LlmConfig(**request.llm.model_dump()))
-        return task
-
     @app.get("/api/tasks/active")
     async def list_active_tasks() -> list[dict]:
         return repository.list_active_tasks()
@@ -185,8 +137,8 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         return task
 
     @app.get("/api/results")
-    async def get_results(view: Literal["all", "collected", "opportunity", "risk"] = "all") -> list[dict]:
-        return repository.list_results(view)
+    async def get_results() -> list[dict]:
+        return repository.list_results()
 
     return app
 
@@ -194,5 +146,3 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
 def create_vercel_app() -> FastAPI:
     repository = SQLiteRepository(DEFAULT_DATABASE_PATH, read_only=True)
     return create_app(run_tasks=False, repository=repository)
-
-
