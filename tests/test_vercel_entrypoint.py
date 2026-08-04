@@ -18,3 +18,8 @@ class VercelEntrypointTests(unittest.TestCase):
         from cninfo_miner.main import app
 
         self.assertIsInstance(app, FastAPI)
+
+    def test_exposes_supported_src_main_entrypoint(self) -> None:
+        from main import app
+
+        self.assertIsInstance(app, FastAPI)

@@ -1,0 +1,1 @@
+from cninfo_miner.main import app
