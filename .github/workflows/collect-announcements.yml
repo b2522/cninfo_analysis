@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   collect-and-analyze:
-    environment: production
+    environment: cninfo
     runs-on: ubuntu-latest
     steps:
       - name: Check out default branch
