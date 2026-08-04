@@ -180,3 +180,7 @@ def create_app(run_tasks: bool = True, repository: object | None = None) -> Fast
         return repository.list_results(view)
 
     return app
+
+
+app = create_app()
+
