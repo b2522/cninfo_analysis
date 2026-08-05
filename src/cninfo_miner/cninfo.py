@@ -31,7 +31,7 @@ def build_query_payload(start_date: str, end_date: str, *, page_num: int) -> dic
         "secid": "",
         "category": "",
         "trade": "",
-        "seDate": f"{start_date}~{end_date}",
+        "seDate": "",
         "sortName": "",
         "sortType": "",
         "isHLtitle": "true",
