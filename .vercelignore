@@ -1,0 +1,23 @@
+# 本地开发入口：不要让 Vercel 把它当作 Python 框架入口去构建
+# （否则会报 "Found main.py but it does not define a top-level 'app'"）
+main.py
+
+# 本地 SQLite（Vercel 只读；线上数据来自 data/snapshot.json / KV / 实时回源）
+announcements.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 运行缓存
+__pycache__/
+*.py[cod]
+
+# 不需要部署到 Vercel 的内容
+.github/
+.venv/
+venv/
+env/
+README.md
+.gitignore
+_probe.py

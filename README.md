@@ -174,8 +174,20 @@ npm i -g vercel
 vercel --prod
 ```
 
-或直接在 Vercel 控制台导入 GitHub 仓库（零配置，`api/*.py` 自动识别为 Python 函数，
-`index.html` 静态托管）。
+或直接在 Vercel 控制台导入 GitHub 仓库。
+
+> **关键：把项目的 Framework Preset 设为 `Other`（其它）**。
+> 仓库根目录有 `main.py`（本地 `python main.py` 用），Vercel 会自动把它识别成
+> Python Web 框架入口并去构建它，从而报
+> `Found main.py but it does not define a top-level "app" FastAPI instance`。
+> 我们已在 `.vercelignore` 中排除 `main.py`，并把后端改成 `api/*.py` 标准 Serverless
+> Functions；只要 Framework Preset = Other，Vercel 就不会再去碰 `main.py`。
+>
+> 设置位置：Vercel 控制台 → 项目 → Settings → Framework Preset → 选 `Other` → Save。
+> 改完**重新部署一次**即可。
+
+`api/announcements.py`、`api/refresh.py` 自动识别为 Python Serverless Functions，
+`index.html` 由 Vercel 静态托管。
 
 ### 为什么不能直接用 SQLite
 
