@@ -176,18 +176,49 @@ vercel --prod
 
 或直接在 Vercel 控制台导入 GitHub 仓库。
 
-> **关键：把项目的 Framework Preset 设为 `Other`（其它）**。
-> 仓库根目录有 `main.py`（本地 `python main.py` 用），Vercel 会自动把它识别成
-> Python Web 框架入口并去构建它，从而报
-> `Found main.py but it does not define a top-level "app" FastAPI instance`。
-> 我们已在 `.vercelignore` 中排除 `main.py`，并把后端改成 `api/*.py` 标准 Serverless
-> Functions；只要 Framework Preset = Other，Vercel 就不会再去碰 `main.py`。
+> ## ⚠️ 必做：把项目的 Framework Preset 设为 `Other`（其它）——否则必报错
 >
-> 设置位置：Vercel 控制台 → 项目 → Settings → Framework Preset → 选 `Other` → Save。
-> 改完**重新部署一次**即可。
+> 本项目用 `api/*.py` 做 Serverless Functions（每个文件一个 `app = Flask()`），
+> **不是**单一 Flask 框架应用。一旦 Vercel 把项目识别成 "Flask 框架"，它会去根目录
+> 找单一入口点（`app.py` / `main.py` / `wsgi.py` / `api/index.py`），找不到就报：
+> `No Flask entrypoint found in default locations, but found potential entrypoints:
+> api/announcements.py (variable: app)`。这与之前的 `Found main.py ...` 是同一个根因。
+>
+> **修复步骤（控制台，最稳）：**
+> 1. Vercel 控制台 → 项目 → **Settings → Framework Preset → 选 `Other`** → Save。
+> 2. 本地重新执行 `vercel --prod`。
+>
+> **如果控制台已设 `Other` 但 CLI 仍报同样的错**（本地 `.vercel` 缓存了旧的框架配置）：
+> - 删掉本地 `.vercel` 目录后重新 `vercel link`（重连时框架选 `Other`/None），或
+> - 直接 `vercel rm <项目名>` 删掉项目，再 `vercel --prod` 重建（创建向导里框架选 `Other`）。
+>   重建会清空该项目的环境变量，需重新配置 KV 等 Secret。
+>
+> `.vercelignore` 已排除 `main.py`，但**仅靠 `.vercelignore` 不够**——必须让云端
+> Framework Preset = Other，Vercel 才会把 `api/*.py` 当函数、关闭 Flask 框架检测。
 
 `api/announcements.py`、`api/refresh.py` 自动识别为 Python Serverless Functions，
 `index.html` 由 Vercel 静态托管。
+
+### Vercel 上的定时更新（Hobby 账户）
+
+> **`vercel.json` 里已不再配置 `crons`。** 原因：Vercel Hobby 账户只允许**每天一次**
+> 的 Cron Job，而本项目需要每小时刷新；`7 * * * *`（每小时）会触发
+> `Hobby accounts are limited to daily cron jobs` 报错。
+>
+> 替代方案（免费、符合限制、且只抓「定时 10 页」逻辑不动）：
+>
+> 1. **GitHub Actions 每小时抓取并向仓库提交 `data/snapshot.json`**（已是现状，
+>    `cron: "5 * * * *"`，`environment: cninfo`，抓取前 10 页共 300 条）。
+> 2. 在 Vercel 控制台开启 **Deployment → Deploy on push to production branch**，
+>    Actions 提交数据后会自动触发一次重新部署，重新打包最新的 `data/snapshot.json`。
+>    → 这样 Vercel 上的数据同样是**每小时**更新，且不占用 Vercel 自己的 cron 配额。
+>
+> 若配置了 KV（方案 1），`/api/announcements` 直接读 KV 同样无需 cron；
+> 若什么都没配，页面仍可用方案 5「实时回源」兜底（点击「重新抓取」按钮现抓）。
+>
+> 手动触发重新部署的命令（可选）：
+> `vercel --prod`（或用 GitHub Actions 末尾加一步调用 Vercel Deploy Hook）。
+
 
 ### 为什么不能直接用 SQLite
 
@@ -208,8 +239,8 @@ Vercel Serverless Functions 的文件系统是**只读**的，唯一可写目录
 与 `KV_REST_API_TOKEN` 到函数环境；把同一对值配到 GitHub Environment `cninfo` 的
 Secrets 里，写入链路就打通了。
 
-若完全不想接 KV，只用方案 2/3 也能跑——只是数据更新需要触发一次 Vercel 重新部署
-（可在 Vercel 里开启 "Deploy on push"，Actions 的数据提交会自动触发部署）。
+若完全不想接 KV，只用方案 2/3 也能跑——数据更新的方式见上方「Vercel 上的定时更新（Hobby 账户）」，
+核心就是开启 Deploy on push，让 Actions 每小时的数据提交自动触发重新部署。
 
 ---
 
