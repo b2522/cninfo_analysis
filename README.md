@@ -1,58 +1,209 @@
-# 公告掘金
+# 巨潮资讯 · 公告聚合
 
-公告采集与展示工具：从巨潮资讯抓取沪深京公告，按公告 ID 自动去重，并保存到项目目录中的 SQLite 文件。页面只展示已经抓取的原始公告，不下载 PDF、不做研判，也不调用大模型。
+抓取巨潮资讯（cninfo.com.cn）全文公告，持久化到 SQLite，并通过一个零依赖的单页面展示。
+支持 **本地一键运行** 与 **Vercel Serverless 部署** 两种形态。
 
-## 工作流
+---
 
-1. 选择开始、结束日期，点击 **抓取公告**。
-   - 后端请求巨潮资讯历史公告接口，使用 `column=szse` 覆盖沪深京市场。
-   - 按 `pageNum` 逐页抓取；相同 `announcement_id` 只保存一条记录，重复抓取会更新公告基础信息。
-2. 抓取完成后，表格展示：**时间｜代码｜简称｜公告标题**。
-   - 如果公告带有 PDF 链接，标题可直接打开源 PDF。
-   - 表格的时间下拉框只影响页面显示，不会删除 SQLite 中的历史数据。
+## 目录结构
 
-## GitHub Actions 自动采集
+```
+.
+├── main.py                        # 单文件后端：抓取 + SQLite + Flask API + 内嵌前端
+├── index.html                     # 前端页面（内联 CSS/JS，无框架依赖）
+├── requirements.txt               # requests + Flask（sqlite3 为标准库）
+├── vercel.json                    # Vercel 路由 / 函数配置
+├── announcements.db               # SQLite 数据（由 Actions 自动提交，作为只读兜底源）
+├── api/
+│   ├── announcements.py           # Vercel Serverless：GET /api/announcements
+│   └── refresh.py                 # Vercel Serverless：POST /api/refresh
+├── data/
+│   └── snapshot.json              # 各区间快照（Actions 生成，Vercel 只读兜底源）
+└── .github/workflows/cninfo.yml   # 每小时抓取（environment: cninfo）
+```
 
-`.github/workflows/collect-announcements.yml` 会按 `cron: "0 */4 * * *"` 调度，即每 4 小时执行一次（GitHub Actions 的实际启动时间可能略有延迟）。流程只做以下事情：
+---
 
-1. 计算本次抓取日期范围；
-2. 抓取并写入 `data/cninfo_announcement_mining.sqlite3`；
-3. 当 SQLite 文件有变化时，将它提交并推送回仓库默认分支。
+## 一、本地运行
 
-该工作流不需要任何大模型或 API 密钥。也可以在 GitHub Actions 页面通过 **Run workflow** 手动执行。
+```bash
+pip install -r requirements.txt
+python main.py                     # 启动后台小时级抓取 + Web 服务
+# 打开 http://localhost:5000
+```
 
-## Vercel 部署
+其它命令：
 
-Vercel 使用 `src/main.py` 作为 FastAPI 入口，并以只读模式打开仓库中已提交的 SQLite 文件。因此 Vercel 页面只负责展示；在 Vercel 页面点击 **抓取公告** 会返回 `403`，提示应在 GitHub Actions 中执行抓取。
+```bash
+python main.py serve --port 8000 --no-scheduler   # 只起服务，不自动抓取
+python main.py scrape --keep-days 30              # 抓一次就退出（Actions 用）
+python main.py export-html                        # 把内嵌前端导出为 index.html
+python main.py export-json                        # 导出 data/snapshot.json
+```
 
-要让 Vercel 展示最新数据：先让 GitHub Actions 成功提交 SQLite 更新到 Vercel 正在部署的分支，然后等待该提交触发 Vercel 的新部署。
+> `main.py` 内嵌了一份完整的前端页面。即使把 `main.py` 单独拷走、目录里没有 `index.html`，
+> `python main.py` 依然能正常提供完整页面——满足「单文件可启动」。
 
-## 本地运行
+---
 
-无需配置数据库账号、`.env` 或任何模型密钥。启动后会自动创建本地 SQLite 文件：
+## 二、抓取逻辑
+
+| 项目 | 实现 |
+| --- | --- |
+| 接口 | `POST https://www.cninfo.com.cn/new/hisAnnouncement/query` |
+| 固定参数 | `pageSize=30`、`column=szse`、`tabName=fulltext` |
+| 分页 | 手动「重新抓取」按钮 `MAX_PAGES=5`（150 条）；每小时定时任务 `SCHEDULE_MAX_PAGES=10`（300 条） |
+| 去重 | `(stock_code, title, publish_time)` 三元组，DB 层同时用 `UNIQUE` 约束兜底 |
+| PDF 地址 | `https://static.cninfo.com.cn/` + `adjunctUrl` |
+| 时间处理 | `announcementTime`（毫秒时间戳）→ UTC+8 ISO 字符串 |
+
+### `seDate` 抓取参数
+
+POST 请求固定携带以下字段，`seDate` 传**空串**，表示**不限日期**，直接取巨潮返回的最新公告；如需限定区间，可显式传入 `2026-08-05~2026-08-06` 这类值（仍可手动调用 `build_se_date()` 生成）。
 
 ```text
-data/cninfo_announcement_mining.sqlite3
+pageNum=1&pageSize=30&column=szse&tabName=fulltext&plate=&stock=&searchkey=
+&secid=&category=&trade=&seDate=&sortName=&sortType=&isHLtitle=true
 ```
 
-```powershell
-python run.py
+> 早期版本曾按 UTC+8 时段（08:00–16:00 取今天+明天，其余仅今天）动态生成 `seDate`，
+> 现已改为空串以简化逻辑、去掉时间依赖。
+
+### 表结构
+
+```sql
+CREATE TABLE announcements (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    stock_code   TEXT NOT NULL,     -- 代码
+    short_name   TEXT,              -- 简称
+    title        TEXT NOT NULL,     -- 公告标题
+    publish_time TEXT NOT NULL,     -- ISO 格式，如 2026-08-05T11:42:12+08:00
+    pdf_url      TEXT,              -- PDF 原始地址
+    UNIQUE (stock_code, title, publish_time)
+);
 ```
 
-然后在浏览器打开 `http://127.0.0.1:8000`。
+---
 
-本地服务运行时，也会每 4 小时创建一次抓取任务。手动抓取的默认范围以北京时间 15:00 为界：15:00 前抓取昨天和今天；15:00 起抓取今天和明天。
+## 三、API
 
-## 数据与安全边界
+`GET /api/announcements?date_range=today`
 
-- 任务和公告数据仅保存到 `data/cninfo_announcement_mining.sqlite3`。
-- 不保存 PDF 二进制，只保存巨潮资讯提供的 PDF URL。
-- 不使用、保存或打印浏览器 Cookie。
-- 页面把公告数据作为纯文本 DOM 节点渲染，避免不可信标题作为 HTML 执行。
+`date_range` 取值与含义（以 UTC+8 当天为基准）：
 
-## 验证
+| 值 | 界面文案 | 日期范围 |
+| --- | --- | --- |
+| `tomorrow` | 明天 | 明天当天 |
+| `today` | 今天（默认） | 今天当天 |
+| `last2` | 近2天 | 昨天 ~ 今天 |
+| `last3` | 近3天 | 前天 ~ 今天 |
 
-```powershell
-python -m unittest discover -s tests -v
-python -m compileall -q src run.py
+> 「近 N 天」= 含今天在内**向前**推算的自然日；「明天」用于查看提前披露的次日公告。
+> 若想改成向后看，只需修改 `main.py` / `api/announcements.py` 顶部的 `DATE_RANGES` 字典。
+
+响应示例：
+
+```json
+{
+  "ok": true,
+  "date_range": "today",
+  "label": "今天",
+  "start_date": "2026-08-05",
+  "end_date": "2026-08-05",
+  "count": 60,
+  "source": "sqlite",
+  "last_scraped_at": "2026-08-05T15:36:52+08:00",
+  "data": [
+    {
+      "stock_code": "301149",
+      "short_name": "隆华新材",
+      "title": "关于完成工商变更登记并换发营业执照的公告",
+      "publish_time": "2026-08-05T11:42:12+08:00",
+      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458732.PDF"
+    }
+  ]
+}
 ```
+
+其它端点：`POST /api/refresh`（立即抓取）、`GET /api/health`（本地版）。
+
+---
+
+## 四、前端
+
+- 顶部日期下拉框切换时，仅重绘 `<tbody>`，`<colgroup>` 不动，因此**列宽恒定不变**，页面不刷新。
+- 表格 `table-layout: fixed`，四列宽度：
+
+| 列 | 宽度 | 对齐 |
+| --- | --- | --- |
+| 代码 | `8ch`（等宽字体，8 个数字字符） | 居中 |
+| 简称 | `6em`（6 个汉字） | 居中 |
+| 公告标题 | 剩余全部宽度 | **左对齐** |
+| 公告时间 | `16ch`（正好是 `2026-08-05 11:42` 的长度） | 居中 |
+
+- 表头：居中、加粗、背景 `#f5f5f5`、滚动时吸顶。
+- 标题为超链接指向 `pdf_url`，带 `target="_blank" rel="noopener noreferrer"`，**在新标签页打开 PDF**，当前列表页的筛选状态不受影响。
+- 原生 `fetch`，无任何框架/CDN 依赖；窄屏时表格横向滚动（`min-width: 760px`）。
+
+---
+
+## 五、GitHub Actions（每小时抓取）
+
+`.github/workflows/cninfo.yml`，`environment: cninfo`，`cron: "5 * * * *"`（UTC，每小时第 5 分钟）。
+
+流程：检出 → 抓取写入 `announcements.db` → 导出 `data/snapshot.json` →
+（可选）推送到 Vercel KV → 提交回仓库 → 输出 Job Summary 表格。
+
+需要在仓库 **Settings → Environments → 新建环境 `cninfo`** 后配置（可选）：
+
+| Secret | 说明 |
+| --- | --- |
+| `KV_REST_API_URL` | Vercel KV / Upstash Redis 的 REST 地址 |
+| `KV_REST_API_TOKEN` | 对应的读写 Token |
+
+未配置时该步骤自动跳过，不影响其余流程。
+
+> 数据每小时提交一次，`--keep-days 30` 会自动清理 30 天前的记录，防止库文件无限膨胀。
+
+---
+
+## 六、Vercel 部署与 SQLite 兼容方案
+
+```bash
+npm i -g vercel
+vercel --prod
+```
+
+或直接在 Vercel 控制台导入 GitHub 仓库（零配置，`api/*.py` 自动识别为 Python 函数，
+`index.html` 静态托管）。
+
+### 为什么不能直接用 SQLite
+
+Vercel Serverless Functions 的文件系统是**只读**的，唯一可写目录是 `/tmp`，
+而 `/tmp` 只属于单个实例、随实例回收而消失。因此 `announcements.db` 在 Vercel 上
+**只能读、不能持久写**。`api/announcements.py` 采用五级降级来解决：
+
+| 优先级 | 数据源 | 说明 |
+| --- | --- | --- |
+| 1 | **Vercel KV / Upstash Redis** | 配置 `KV_REST_API_URL` + `KV_REST_API_TOKEN` 后，Actions 每小时推快照，函数直接读，**无需重新部署即可更新数据**。推荐方案。 |
+| 2 | `data/snapshot.json` | Actions 提交的 JSON 快照，随部署分发。零成本，但数据新鲜度取决于最近一次部署。 |
+| 3 | `announcements.db` | 随仓库打包的只读 SQLite，用 `file:...?mode=ro` 打开。 |
+| 4 | `/tmp/announcements.db` | 同实例热缓存，TTL 15 分钟。 |
+| 5 | **实时回源 cninfo** | 前三者都拿不到数据时直接现抓前 5 页，并回写 `/tmp` 缓存。保证页面永远有数据。 |
+
+推荐组合：**方案 1（KV）+ 方案 5（兜底）**。
+在 Vercel 项目里创建一个 KV / Upstash 集成后，Vercel 会自动注入 `KV_REST_API_URL`
+与 `KV_REST_API_TOKEN` 到函数环境；把同一对值配到 GitHub Environment `cninfo` 的
+Secrets 里，写入链路就打通了。
+
+若完全不想接 KV，只用方案 2/3 也能跑——只是数据更新需要触发一次 Vercel 重新部署
+（可在 Vercel 里开启 "Deploy on push"，Actions 的数据提交会自动触发部署）。
+
+---
+
+## 七、注意事项
+
+- `column=szse` 是巨潮的全文检索通道，返回结果同时覆盖深市与沪市（含科创板/创业板）。
+- 手动「重新抓取」抓前 5 页共 150 条；每小时定时任务抓前 10 页共 300 条。如需调整，分别改 `MAX_PAGES` / `SCHEDULE_MAX_PAGES`（同时注意巨潮的频率限制）。
+- 抓取带有 3 次退避重试与 0.4s 页间限速，避免触发风控。
+- 非交易日接口返回空列表属正常现象，Actions 不会因此失败。

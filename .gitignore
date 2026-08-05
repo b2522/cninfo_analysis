@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+.vercel/
+.DS_Store
+.idea/
+.vscode/
+
+# announcements.db 与 data/snapshot.json 由 GitHub Actions 自动提交，
+# 作为 Vercel 只读兜底数据源，因此【不要】忽略它们。
+*.db-journal
+*.db-wal
+*.db-shm
+_probe.py

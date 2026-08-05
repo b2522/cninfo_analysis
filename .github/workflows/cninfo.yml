@@ -1,0 +1,112 @@
+name: cninfo
+
+on:
+  schedule:
+    # 每小时的第 5 分钟执行一次（GitHub Actions cron 使用 UTC，整点排队较拥挤故错开 5 分钟）
+    - cron: "5 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "main.py"
+      - ".github/workflows/cninfo.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cninfo-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: 抓取巨潮公告
+    runs-on: ubuntu-latest
+    environment: cninfo
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 执行抓取（前 2 页 / 三元组去重 / 写入 announcements.db）
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          python main.py scrape \
+            --db announcements.db \
+            --json-out data/snapshot.json \
+            --keep-days 30
+
+      - name: 推送快照到 Vercel KV（未配置 Secrets 时自动跳过）
+        env:
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+          KV_SNAPSHOT_KEY: ${{ vars.KV_SNAPSHOT_KEY || 'cninfo:snapshot' }}
+        run: |
+          if [ -z "$KV_REST_API_URL" ] || [ -z "$KV_REST_API_TOKEN" ]; then
+            echo "未配置 KV_REST_API_URL / KV_REST_API_TOKEN，跳过 KV 推送。"
+            exit 0
+          fi
+          python - <<'PY'
+          import json, os, requests
+          url = os.environ["KV_REST_API_URL"].rstrip("/")
+          token = os.environ["KV_REST_API_TOKEN"]
+          key = os.environ.get("KV_SNAPSHOT_KEY", "cninfo:snapshot")
+          with open("data/snapshot.json", "r", encoding="utf-8") as fh:
+              payload = fh.read()
+          r = requests.post(f"{url}/set/{key}", data=payload.encode("utf-8"),
+                            headers={"Authorization": f"Bearer {token}"}, timeout=20)
+          print("KV set ->", r.status_code, r.text[:200])
+          r.raise_for_status()
+          PY
+
+      - name: 提交数据变更
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A announcements.db data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "无数据变更，跳过提交。"
+          else
+            git commit -m "chore(data): 巨潮公告自动更新 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M %Z')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: 输出摘要
+        if: always()
+        run: |
+          if [ ! -f data/snapshot.json ]; then
+            echo "### 巨潮公告抓取结果" >> "$GITHUB_STEP_SUMMARY"
+            echo "未生成快照文件。" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+
+          with open("data/snapshot.json", encoding="utf-8") as fh:
+              d = json.load(fh)
+
+          print("### 巨潮公告抓取结果\n")
+          print("- 最后抓取时间:", d.get("last_scraped_at"), "\n")
+          print("| 区间 | 日期 | 条数 |")
+          print("| --- | --- | --- |")
+          for v in d.get("ranges", {}).values():
+              span = v["start_date"] if v["start_date"] == v["end_date"] \
+                  else "%s ~ %s" % (v["start_date"], v["end_date"])
+              print("| %s | %s | %d |" % (v["label"], span, v["count"]))
+          PY

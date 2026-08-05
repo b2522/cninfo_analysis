@@ -1,0 +1,5 @@
+# 巨潮资讯公告聚合 —— 运行依赖
+# sqlite3 / http.server / argparse / threading 均为 Python 标准库，无需安装
+
+requests>=2.31.0
+Flask>=3.0.0
