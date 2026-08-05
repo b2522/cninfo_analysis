@@ -23,7 +23,10 @@ from typing import Any, Dict
 
 from flask import Flask, request, Response
 
-from common import build_payload, DEFAULT_RANGE
+try:
+    from common import build_payload, DEFAULT_RANGE
+except ImportError:  # pragma: no cover - Vercel 可能把项目根而非 api/ 加入 path
+    from api.common import build_payload, DEFAULT_RANGE
 
 app = Flask(__name__)
 

@@ -199,6 +199,12 @@ vercel --prod
 `api/announcements.py`、`api/refresh.py` 自动识别为 Python Serverless Functions，
 `index.html` 由 Vercel 静态托管。
 
+> **依赖必须放在 `api/requirements.txt`**：Vercel 的 Python 函数在 "Other" 预设下，
+> 只会安装 `api/` 同级目录的 `requirements.txt`，**根目录那份不会被用于函数运行时**。
+> 缺了它，`import flask` / `import requests` 会失败，函数一调用就 **HTTP 500**
+> （页面表现即「加载失败：HTTP 500」）。本项目已创建 `api/requirements.txt`
+> （仅 `requests` + `Flask`），**不要删除，也不要只依赖根目录那份**。
+
 ### Vercel 上的定时更新（Hobby 账户）
 
 > **`vercel.json` 里已不再配置 `crons`。** 原因：Vercel Hobby 账户只允许**每天一次**
@@ -241,6 +247,15 @@ Secrets 里，写入链路就打通了。
 
 若完全不想接 KV，只用方案 2/3 也能跑——数据更新的方式见上方「Vercel 上的定时更新（Hobby 账户）」，
 核心就是开启 Deploy on push，让 Actions 每小时的数据提交自动触发重新部署。
+
+> **注意：本项目当前不是 git 仓库**，因此 GitHub Actions（`cninfo.yml`）不会运行，
+> Deploy on push 也不生效。此时 Vercel 上 `data/snapshot.json` 是**部署时刻的静态快照**，
+> 部署后不会自动更新。两种手动更新方式：
+> 1. 在页面上点「重新抓取」按钮 —— 触发 `/api/refresh` **实时回源** cninfo（需 `api/requirements.txt`
+>    已装好 `requests`，否则同样 500）。这是部署后让数据变新的最快方式。
+> 2. 本地重新 `python main.py scrape && python main.py export-json` 刷新数据，再 `vercel --prod`
+>    重新部署，打包进最新的 `data/snapshot.json`。
+> 若要恢复「每小时自动更新」，需 `git init` 并推到 GitHub，使 Actions 与 Deploy on push 生效。
 
 ---
 

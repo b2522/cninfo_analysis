@@ -16,7 +16,10 @@ from typing import Any, Dict
 
 from flask import Flask, request, Response
 
-from common import refresh_now
+try:
+    from common import refresh_now
+except ImportError:  # pragma: no cover - Vercel 可能把项目根而非 api/ 加入 path
+    from api.common import refresh_now
 
 app = Flask(__name__)
 

@@ -1,0 +1,4 @@
+# Vercel 的 Python Serverless Function 依赖必须放在 api/ 同级，
+# 否则 "Other" 预设下不会为函数安装依赖，导致运行时 ImportError -> HTTP 500。
+requests>=2.31.0
+Flask>=3.0.0
