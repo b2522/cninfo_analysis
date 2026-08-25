@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-08-25T19:30:25+08:00",
- "last_scraped_at": "2026-08-25T19:30:25+08:00",
+ "generated_at": "2026-08-25T19:35:47+08:00",
+ "last_scraped_at": "2026-08-25T19:35:47+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-08-26",
    "end_date": "2026-08-26",
-   "count": 2127,
+   "count": 2179,
    "data": [
     {
      "stock_code": "000007",
@@ -469,6 +469,13 @@
      "title": "关于会计政策变更的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503534.PDF"
+    },
+    {
+     "stock_code": "000703",
+     "short_name": "恒逸石化",
+     "title": "关于提前赎回“恒逸转2”的第六次提示性公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506611.PDF"
     },
     {
      "stock_code": "000708",
@@ -1834,6 +1841,41 @@
      "title": "关于注销产业投资发展基金的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503522.PDF"
+    },
+    {
+     "stock_code": "002362",
+     "short_name": "汉王科技",
+     "title": "2026年半年度报告摘要",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506283.PDF"
+    },
+    {
+     "stock_code": "002362",
+     "short_name": "汉王科技",
+     "title": "2026年半年度报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506284.PDF"
+    },
+    {
+     "stock_code": "002362",
+     "short_name": "汉王科技",
+     "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506285.PDF"
+    },
+    {
+     "stock_code": "002362",
+     "short_name": "汉王科技",
+     "title": "2026年半年度募集资金存放与使用情况的专项报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506286.PDF"
+    },
+    {
+     "stock_code": "002362",
+     "short_name": "汉王科技",
+     "title": "汉王科技第七届董事会第十六次会议决议公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506287.PDF"
     },
     {
      "stock_code": "002402",
@@ -4774,6 +4816,55 @@
      "title": "关于全资子公司变更法定代表人及经营范围并完成工商变更登记的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503425.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "关于出售参股公司股权的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506444.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "2026年半年度报告摘要",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506445.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "2026年半年度报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506446.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506447.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "关于2026年半年度募集资金存放与使用情况的专项报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506448.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "第五届董事会2026年第三次会议决议公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506449.PDF"
+    },
+    {
+     "stock_code": "300565",
+     "short_name": "科信技术",
+     "title": "关于2026年半年度报告披露提示性公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506450.PDF"
     },
     {
      "stock_code": "300567",
@@ -8031,6 +8122,90 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505365.PDF"
     },
     {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司第九届董事会第十次会议决议公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506667.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司关于公司在中国建材集团财务有限公司办理存贷款业务的持续风险评估报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506668.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "独立董事候选人声明与承诺（李宗群）",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506669.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "独立董事候选人声明与承诺（杨仕兵）",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506672.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司2026年度董事、高级管理人员薪酬方案",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506673.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司2026年半年度报告摘要",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506674.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司关于续聘会计师事务所的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506677.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司关于独立董事任期届满离任暨补选独立董事的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506678.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司2026年上半年募集资金存放与实际使用情况的专项报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506680.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司关于召开2026年第一次临时股东会的通知",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506690.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司独立董事提名人声明与承诺",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506691.PDF"
+    },
+    {
+     "stock_code": "600552",
+     "short_name": "凯盛科技",
+     "title": "凯盛科技股份有限公司2026年半年度报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506693.PDF"
+    },
+    {
      "stock_code": "600566",
      "short_name": "济川药业",
      "title": "湖北济川药业股份有限公司关于员工持股计划部分股份回购注销实施的公告",
@@ -8820,6 +8995,13 @@
      "title": "安徽华塑股份有限公司关于拟建年产5万吨氯丙烯项目的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225503332.PDF"
+    },
+    {
+     "stock_code": "600936",
+     "short_name": "北投科技",
+     "title": "北投科技关于控股子公司收购广西北投软件股份有限公司50%股份暨关联交易的进展公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506661.PDF"
     },
     {
      "stock_code": "600956",
@@ -10948,6 +11130,48 @@
      "title": "万泰生物关于实际控制人无偿捐赠部分公司股份的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502930.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方2026年半年度报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506660.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方2026年半年度主要经营数据的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506663.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方关于会计政策变更的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506676.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方2026年半年度报告摘要",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506684.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方关于2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506689.PDF"
+    },
+    {
+     "stock_code": "603395",
+     "short_name": "红四方",
+     "title": "红四方第四届董事会第九次会议决议公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506692.PDF"
     },
     {
      "stock_code": "603396",
@@ -14443,6 +14667,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506526.PDF"
     },
     {
+     "stock_code": "688613",
+     "short_name": "奥精医疗",
+     "title": "奥精医疗关于股东减持股份计划时间届满暨未实施减持的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506686.PDF"
+    },
+    {
      "stock_code": "688615",
      "short_name": "合合信息",
      "title": "上海合合信息科技股份有限公司关于参加科创板2026年半年度人工智能行业集体业绩说明会的公告",
@@ -14665,6 +14896,139 @@
      "title": "凯因科技关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
      "publish_time": "2026-08-26T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502313.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "国浩律师（武汉）事务所关于武汉达梦数据库股份有限公司2025年限制性股票激励计划调整及预留授予事项之法律意见书",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506662.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于召开2026年第三次临时股东会的通知",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506664.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于续聘会计师事务所的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506665.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于调整2025年限制性股票激励计划首次授予限制性股票授予价格的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506666.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于为公司及公司董事、高级管理人员购买责任险的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506670.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "2026年半年度报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506671.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "2025年限制性股票激励计划预留授予激励对象名单(截至授予日)",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506675.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于召开2026年半年度业绩说明会的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506679.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于公司2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506681.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于中国电子财务有限责任公司2026年半年度风险持续评估报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506682.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于会计估计变更的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506685.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "2026年度“提质增效重回报”行动方案的执行进展报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506687.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于2026年半年度利润分配方案的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506688.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于会计政策变更的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506694.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "2026年半年度报告摘要",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506695.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "会计估计变更审核报告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506696.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "第二届董事会第二十四次会议决议公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506697.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "关于向2025年限制性股票激励计划激励对象授予预留限制性股票的公告",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506698.PDF"
+    },
+    {
+     "stock_code": "688692",
+     "short_name": "达梦数据",
+     "title": "董事会薪酬与考核委员会关于公司2025年限制性股票激励计划预留授予激励对象名单的核查意见（截至授予日）",
+     "publish_time": "2026-08-26T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225506699.PDF"
     },
     {
      "stock_code": "688720",
