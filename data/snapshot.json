@@ -1,20 +1,105 @@
 {
- "generated_at": "2026-08-27T15:30:45+08:00",
- "last_scraped_at": "2026-08-27T15:30:45+08:00",
+ "generated_at": "2026-08-27T16:00:30+08:00",
+ "last_scraped_at": "2026-08-27T16:00:30+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-08-28",
    "end_date": "2026-08-28",
-   "count": 0,
-   "data": []
+   "count": 5,
+   "data": [
+    {
+     "stock_code": "000430",
+     "short_name": "张家界",
+     "title": "张家界旅游集团股份有限公司关于参加2026年湖南辖区上市公司投资者网上集体接待日活动的公告",
+     "publish_time": "2026-08-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225515910.PDF"
+    },
+    {
+     "stock_code": "000819",
+     "short_name": "岳阳兴长",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225515860.PDF"
+    },
+    {
+     "stock_code": "002255",
+     "short_name": "海陆重工",
+     "title": "关于仲裁事项进展的公告",
+     "publish_time": "2026-08-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225515928.PDF"
+    },
+    {
+     "stock_code": "002792",
+     "short_name": "通宇通讯",
+     "title": "关于与专业投资机构共同投资的进展公告",
+     "publish_time": "2026-08-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225515933.PDF"
+    },
+    {
+     "stock_code": "301118",
+     "short_name": "恒光股份",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225515785.PDF"
+    }
+   ]
   },
   "today": {
    "label": "今天",
    "start_date": "2026-08-27",
    "end_date": "2026-08-27",
-   "count": 3407,
+   "count": 3414,
    "data": [
+    {
+     "stock_code": "002344",
+     "short_name": "海宁皮城",
+     "title": "海宁中国皮革城股份有限公司2026年面向专业投资者公开发行绿色公司债券（第一期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515950.PDF"
+    },
+    {
+     "stock_code": "301069",
+     "short_name": "凯盛新材",
+     "title": "关于控股股东非公开发行可交换公司债券拟办理补充担保及信托登记的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515750.PDF"
+    },
+    {
+     "stock_code": "300433",
+     "short_name": "蓝思科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515786.PDF"
+    },
+    {
+     "stock_code": "300464",
+     "short_name": "星徽股份",
+     "title": "关于诉讼事项公司收到再审裁定的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515787.PDF"
+    },
+    {
+     "stock_code": "300515",
+     "short_name": "三德科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515758.PDF"
+    },
+    {
+     "stock_code": "300727",
+     "short_name": "润禾材料",
+     "title": "润禾材料关于向不特定对象发行可转换公司债券申请获得中国证券监督管理委员会同意注册批复的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515818.PDF"
+    },
+    {
+     "stock_code": "300256",
+     "short_name": "星星科技",
+     "title": "关于全资子公司部分土地使用权及地上建筑物被收储的完成公告",
+     "publish_time": "2026-08-27T15:50:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515788.PDF"
+    },
     {
      "stock_code": "000952",
      "short_name": "广济药业",
@@ -23870,8 +23955,57 @@
    "label": "近2天",
    "start_date": "2026-08-26",
    "end_date": "2026-08-27",
-   "count": 6189,
+   "count": 6196,
    "data": [
+    {
+     "stock_code": "002344",
+     "short_name": "海宁皮城",
+     "title": "海宁中国皮革城股份有限公司2026年面向专业投资者公开发行绿色公司债券（第一期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515950.PDF"
+    },
+    {
+     "stock_code": "301069",
+     "short_name": "凯盛新材",
+     "title": "关于控股股东非公开发行可交换公司债券拟办理补充担保及信托登记的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515750.PDF"
+    },
+    {
+     "stock_code": "300433",
+     "short_name": "蓝思科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515786.PDF"
+    },
+    {
+     "stock_code": "300464",
+     "short_name": "星徽股份",
+     "title": "关于诉讼事项公司收到再审裁定的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515787.PDF"
+    },
+    {
+     "stock_code": "300515",
+     "short_name": "三德科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515758.PDF"
+    },
+    {
+     "stock_code": "300727",
+     "short_name": "润禾材料",
+     "title": "润禾材料关于向不特定对象发行可转换公司债券申请获得中国证券监督管理委员会同意注册批复的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515818.PDF"
+    },
+    {
+     "stock_code": "300256",
+     "short_name": "星星科技",
+     "title": "关于全资子公司部分土地使用权及地上建筑物被收储的完成公告",
+     "publish_time": "2026-08-27T15:50:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515788.PDF"
+    },
     {
      "stock_code": "000952",
      "short_name": "广济药业",
@@ -67201,8 +67335,57 @@
    "label": "近3天",
    "start_date": "2026-08-25",
    "end_date": "2026-08-27",
-   "count": 9356,
+   "count": 9363,
    "data": [
+    {
+     "stock_code": "002344",
+     "short_name": "海宁皮城",
+     "title": "海宁中国皮革城股份有限公司2026年面向专业投资者公开发行绿色公司债券（第一期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515950.PDF"
+    },
+    {
+     "stock_code": "301069",
+     "short_name": "凯盛新材",
+     "title": "关于控股股东非公开发行可交换公司债券拟办理补充担保及信托登记的公告",
+     "publish_time": "2026-08-27T15:56:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515750.PDF"
+    },
+    {
+     "stock_code": "300433",
+     "short_name": "蓝思科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515786.PDF"
+    },
+    {
+     "stock_code": "300464",
+     "short_name": "星徽股份",
+     "title": "关于诉讼事项公司收到再审裁定的公告",
+     "publish_time": "2026-08-27T15:54:11+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515787.PDF"
+    },
+    {
+     "stock_code": "300515",
+     "short_name": "三德科技",
+     "title": "关于参加2026年湖南辖区上市公司投资者网上集体接待日暨半年度业绩说明会活动的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515758.PDF"
+    },
+    {
+     "stock_code": "300727",
+     "short_name": "润禾材料",
+     "title": "润禾材料关于向不特定对象发行可转换公司债券申请获得中国证券监督管理委员会同意注册批复的公告",
+     "publish_time": "2026-08-27T15:52:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515818.PDF"
+    },
+    {
+     "stock_code": "300256",
+     "short_name": "星星科技",
+     "title": "关于全资子公司部分土地使用权及地上建筑物被收储的完成公告",
+     "publish_time": "2026-08-27T15:50:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225515788.PDF"
+    },
     {
      "stock_code": "000952",
      "short_name": "广济药业",
