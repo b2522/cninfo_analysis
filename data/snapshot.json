@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-01T08:00:23+08:00",
- "last_scraped_at": "2026-09-01T08:00:23+08:00",
+ "generated_at": "2026-09-01T08:30:47+08:00",
+ "last_scraped_at": "2026-09-01T08:30:47+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -13,8 +13,15 @@
    "label": "今天",
    "start_date": "2026-09-01",
    "end_date": "2026-09-01",
-   "count": 919,
+   "count": 920,
    "data": [
+    {
+     "stock_code": "300450",
+     "short_name": "先导智能",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-09-01T08:02:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539606.PDF"
+    },
     {
      "stock_code": "000011",
      "short_name": "深物业A",
@@ -6454,8 +6461,15 @@
    "label": "近2天",
    "start_date": "2026-08-31",
    "end_date": "2026-09-01",
-   "count": 1532,
+   "count": 1533,
    "data": [
+    {
+     "stock_code": "300450",
+     "short_name": "先导智能",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-09-01T08:02:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539606.PDF"
+    },
     {
      "stock_code": "000011",
      "short_name": "深物业A",
@@ -17186,8 +17200,15 @@
    "label": "近3天",
    "start_date": "2026-08-30",
    "end_date": "2026-09-01",
-   "count": 1532,
+   "count": 1533,
    "data": [
+    {
+     "stock_code": "300450",
+     "short_name": "先导智能",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-09-01T08:02:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-01/1225539606.PDF"
+    },
     {
      "stock_code": "000011",
      "short_name": "深物业A",
