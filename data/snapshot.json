@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-01T23:00:29+08:00",
- "last_scraped_at": "2026-09-01T23:00:29+08:00",
+ "generated_at": "2026-09-01T23:30:36+08:00",
+ "last_scraped_at": "2026-09-01T23:30:36+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-09-02",
    "end_date": "2026-09-02",
-   "count": 955,
+   "count": 956,
    "data": [
     {
      "stock_code": "000016",
@@ -966,6 +966,13 @@
      "title": "关于员工持股计划完成股票过户的公告",
      "publish_time": "2026-09-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225540887.PDF"
+    },
+    {
+     "stock_code": "002274",
+     "short_name": "华昌化工",
+     "title": "关于筹划公司控制权变更事项的进展暨复牌公告",
+     "publish_time": "2026-09-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-02/1225542847.PDF"
     },
     {
      "stock_code": "002283",
