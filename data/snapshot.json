@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-06T08:00:26+08:00",
- "last_scraped_at": "2026-09-06T08:00:26+08:00",
+ "generated_at": "2026-09-06T08:30:24+08:00",
+ "last_scraped_at": "2026-09-06T08:30:24+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -20,7 +20,7 @@
    "label": "近2天",
    "start_date": "2026-09-05",
    "end_date": "2026-09-06",
-   "count": 600,
+   "count": 601,
    "data": [
     {
      "stock_code": "000062",
@@ -2646,6 +2646,13 @@
      "title": "H股公告-月报表",
      "publish_time": "2026-09-05T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225548637.PDF"
+    },
+    {
+     "stock_code": "601899",
+     "short_name": "紫金矿业",
+     "title": "紫金矿业集团股份有限公司关于定期报告财务报表附注部分相关文字错误的更正公告",
+     "publish_time": "2026-09-05T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225550225.PDF"
     },
     {
      "stock_code": "601918",
@@ -4228,7 +4235,7 @@
    "label": "近3天",
    "start_date": "2026-09-04",
    "end_date": "2026-09-06",
-   "count": 1319,
+   "count": 1320,
    "data": [
     {
      "stock_code": "000062",
@@ -6854,6 +6861,13 @@
      "title": "H股公告-月报表",
      "publish_time": "2026-09-05T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225548637.PDF"
+    },
+    {
+     "stock_code": "601899",
+     "short_name": "紫金矿业",
+     "title": "紫金矿业集团股份有限公司关于定期报告财务报表附注部分相关文字错误的更正公告",
+     "publish_time": "2026-09-05T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-05/1225550225.PDF"
     },
     {
      "stock_code": "601918",
