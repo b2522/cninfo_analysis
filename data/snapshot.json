@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-09T22:23:14+08:00",
- "last_scraped_at": "2026-09-09T22:23:14+08:00",
+ "generated_at": "2026-09-09T22:30:27+08:00",
+ "last_scraped_at": "2026-09-09T22:30:27+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-09-10",
    "end_date": "2026-09-10",
-   "count": 930,
+   "count": 931,
    "data": [
     {
      "stock_code": "000016",
@@ -5586,6 +5586,13 @@
      "title": "H股公告-翌日披露报表",
      "publish_time": "2026-09-10T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-10/1225556190.PDF"
+    },
+    {
+     "stock_code": "688012",
+     "short_name": "中微公司",
+     "title": "关于持股5%以上股东权益变动触及1%刻度暨减持股份结果公告",
+     "publish_time": "2026-09-10T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-10/1225556622.PDF"
     },
     {
      "stock_code": "688013",
