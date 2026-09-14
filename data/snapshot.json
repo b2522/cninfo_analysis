@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-14T08:00:19+08:00",
- "last_scraped_at": "2026-09-14T08:00:19+08:00",
+ "generated_at": "2026-09-14T08:30:23+08:00",
+ "last_scraped_at": "2026-09-14T08:30:23+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -13,8 +13,15 @@
    "label": "今天",
    "start_date": "2026-09-14",
    "end_date": "2026-09-14",
-   "count": 68,
+   "count": 69,
    "data": [
+    {
+     "stock_code": "300468",
+     "short_name": "四方精创",
+     "title": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+     "publish_time": "2026-09-14T08:00:06+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-14/1225562094.PDF"
+    },
     {
      "stock_code": "000823",
      "short_name": "超声电子",
@@ -497,8 +504,15 @@
    "label": "近2天",
    "start_date": "2026-09-13",
    "end_date": "2026-09-14",
-   "count": 68,
+   "count": 69,
    "data": [
+    {
+     "stock_code": "300468",
+     "short_name": "四方精创",
+     "title": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+     "publish_time": "2026-09-14T08:00:06+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-14/1225562094.PDF"
+    },
     {
      "stock_code": "000823",
      "short_name": "超声电子",
@@ -981,8 +995,15 @@
    "label": "近3天",
    "start_date": "2026-09-12",
    "end_date": "2026-09-14",
-   "count": 1429,
+   "count": 1430,
    "data": [
+    {
+     "stock_code": "300468",
+     "short_name": "四方精创",
+     "title": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+     "publish_time": "2026-09-14T08:00:06+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-09-14/1225562094.PDF"
+    },
     {
      "stock_code": "000823",
      "short_name": "超声电子",
