@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-30T21:33:49+08:00",
- "last_scraped_at": "2026-09-30T21:33:49+08:00",
+ "generated_at": "2026-09-30T22:00:32+08:00",
+ "last_scraped_at": "2026-09-30T22:00:32+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-01",
    "end_date": "2026-10-01",
-   "count": 693,
+   "count": 694,
    "data": [
     {
      "stock_code": "300083",
@@ -1176,6 +1176,13 @@
      "title": "红豆股份简式权益变动报告书",
      "publish_time": "2026-10-01T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591190.PDF"
+    },
+    {
+     "stock_code": "600418",
+     "short_name": "江淮汽车",
+     "title": "江淮汽车股票交易异常波动公告",
+     "publish_time": "2026-10-01T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592195.PDF"
     },
     {
      "stock_code": "600418",
