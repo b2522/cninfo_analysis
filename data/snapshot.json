@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-07T17:00:23+08:00",
- "last_scraped_at": "2026-10-07T17:00:23+08:00",
+ "generated_at": "2026-10-07T17:30:22+08:00",
+ "last_scraped_at": "2026-10-07T17:30:22+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-08",
    "end_date": "2026-10-08",
-   "count": 368,
+   "count": 372,
    "data": [
     {
      "stock_code": "000016",
@@ -1808,6 +1808,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225591498.PDF"
     },
     {
+     "stock_code": "600029",
+     "short_name": "南方航空",
+     "title": "南方航空H股公告-月报表",
+     "publish_time": "2026-10-08T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595666.PDF"
+    },
+    {
      "stock_code": "600031",
      "short_name": "三一重工",
      "title": "三一重工股份有限公司H股公告-证券变动月报表（9月）",
@@ -2053,6 +2060,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595355.PDF"
     },
     {
+     "stock_code": "601678",
+     "short_name": "滨化股份",
+     "title": "H股公告-截至二零二六年九月三十日止月份之股份发行人的证券变动月报表",
+     "publish_time": "2026-10-08T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595667.PDF"
+    },
+    {
      "stock_code": "601688",
      "short_name": "华泰证券",
      "title": "华泰证券H股公告（截至2026年9月30日股份发行人的证券变动月报表）",
@@ -2128,6 +2142,20 @@
      "title": "H股公告：9月月报表",
      "publish_time": "2026-10-08T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595313.PDF"
+    },
+    {
+     "stock_code": "603228",
+     "short_name": "景旺电子",
+     "title": "景旺电子关于境外上市外资股（H股）调入港股通标的证券名单的公告",
+     "publish_time": "2026-10-08T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595668.PDF"
+    },
+    {
+     "stock_code": "603228",
+     "short_name": "景旺电子",
+     "title": "H股公告-截至二零二六年九月三十日止股份发行人的证券变动月报表",
+     "publish_time": "2026-10-08T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595669.PDF"
     },
     {
      "stock_code": "603259",
