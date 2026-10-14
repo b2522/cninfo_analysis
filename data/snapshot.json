@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-14T20:30:25+08:00",
- "last_scraped_at": "2026-10-14T20:30:25+08:00",
+ "generated_at": "2026-10-14T21:00:28+08:00",
+ "last_scraped_at": "2026-10-14T21:00:28+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-15",
    "end_date": "2026-10-15",
-   "count": 691,
+   "count": 711,
    "data": [
     {
      "stock_code": "000002",
@@ -261,6 +261,41 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225604958.PDF"
     },
     {
+     "stock_code": "000600",
+     "short_name": "建投能源",
+     "title": "第十一届董事会第一次临时会议决议公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605693.PDF"
+    },
+    {
+     "stock_code": "000600",
+     "short_name": "建投能源",
+     "title": "2026年第一次临时股东会决议公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605694.PDF"
+    },
+    {
+     "stock_code": "000600",
+     "short_name": "建投能源",
+     "title": "公司章程修正案",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605695.PDF"
+    },
+    {
+     "stock_code": "000600",
+     "short_name": "建投能源",
+     "title": "河北建投能源投资股份有限公司章程",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605696.PDF"
+    },
+    {
+     "stock_code": "000600",
+     "short_name": "建投能源",
+     "title": "国浩律师（石家庄）事务所关于河北建投能源投资股份有限公司二〇二六年第一次临时股东会的法律意见书",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605697.PDF"
+    },
+    {
      "stock_code": "000603",
      "short_name": "盛达资源",
      "title": "关于为子公司提供担保暨接受关联方无偿担保的进展公告",
@@ -308,6 +343,13 @@
      "title": "2026年第三次临时股东会之法律意见书",
      "publish_time": "2026-10-15T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605094.PDF"
+    },
+    {
+     "stock_code": "000668",
+     "short_name": "荣丰控股",
+     "title": "股票交易异常波动公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605749.PDF"
     },
     {
      "stock_code": "000676",
@@ -968,6 +1010,55 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225604880.PDF"
     },
     {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "第七届董事会第十六次会议决议公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605739.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "苏州禾盛新型材料股份有限公司关于2026年度以简易程序向特定对象发行股票预案修订情况说明的公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605740.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "2026年度以简易程序向特定对象发行股票预案（修订稿）",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605741.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "2026年度以简易程序向特定对象发行股票方案论证分析报告（修订稿）",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605742.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "2026年度以简易程序向特定对象发行股票募集资金使用的可行性分析报告（修订稿）",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605743.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "苏州禾盛新型材料股份有限公司关于2026年以简易程序向特定对象发行股票预案（修订稿）披露的提示性公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605744.PDF"
+    },
+    {
+     "stock_code": "002290",
+     "short_name": "禾盛新材",
+     "title": "2026年度以简易程序向特定对象发行股票摊薄即期回报的风险提示及填补回报措施和相关主体承诺（修订稿）的公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605745.PDF"
+    },
+    {
      "stock_code": "002309",
      "short_name": "中利集团",
      "title": "关于对全资子公司增资的公告",
@@ -1232,6 +1323,20 @@
      "title": "关于全资子公司为公司提供担保并接受关联方担保的公告",
      "publish_time": "2026-10-15T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605568.PDF"
+    },
+    {
+     "stock_code": "002626",
+     "short_name": "金达威",
+     "title": "关于不向下修正金威转债转股价格的公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605691.PDF"
+    },
+    {
+     "stock_code": "002626",
+     "short_name": "金达威",
+     "title": "第九届董事会第十八次会议决议公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605692.PDF"
     },
     {
      "stock_code": "002633",
@@ -2086,6 +2191,20 @@
      "title": "国联民生证券承销保荐有限公司关于深圳市尚水智能股份有限公司首次公开发行网下配售限售股上市流通的核查意见",
      "publish_time": "2026-10-15T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605436.PDF"
+    },
+    {
+     "stock_code": "301718",
+     "short_name": "通则康威",
+     "title": "首次公开发行股票并在创业板上市招股说明书",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605301.PDF"
+    },
+    {
+     "stock_code": "301718",
+     "short_name": "通则康威",
+     "title": "首次公开发行股票并在创业板上市发行结果公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605493.PDF"
     },
     {
      "stock_code": "600009",
@@ -3775,6 +3894,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605124.PDF"
     },
     {
+     "stock_code": "603650",
+     "short_name": "彤程新材",
+     "title": "H股公告-董事会会议通告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605838.PDF"
+    },
+    {
      "stock_code": "603678",
      "short_name": "火炬电子",
      "title": "火炬电子关于为控股子公司提供担保的进展公告（十二）",
@@ -3864,6 +3990,13 @@
      "title": "欧派家居第五届董事会第十三次会议决议公告",
      "publish_time": "2026-10-15T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225604415.PDF"
+    },
+    {
+     "stock_code": "603843",
+     "short_name": "*ST正平",
+     "title": "正平股份关于公司及子公司诉讼仲裁事项进展及新增诉讼仲裁事项的公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605766.PDF"
     },
     {
      "stock_code": "603863",
@@ -4711,6 +4844,13 @@
      "title": "关于部分募投项目结项并将节余募集资金永久补充流动资金及注销相关募集资金专户的公告",
      "publish_time": "2026-10-15T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225604483.PDF"
+    },
+    {
+     "stock_code": "688443",
+     "short_name": "智翔金泰",
+     "title": "自愿披露关于泰利奇拜单抗注射液慢性鼻窦炎伴鼻息肉适应症上市申请获得受理的公告",
+     "publish_time": "2026-10-15T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605836.PDF"
     },
     {
      "stock_code": "688448",
