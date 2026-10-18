@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-18T20:30:28+08:00",
- "last_scraped_at": "2026-10-18T20:30:27+08:00",
+ "generated_at": "2026-10-18T21:00:26+08:00",
+ "last_scraped_at": "2026-10-18T21:00:26+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -560,15 +560,30 @@
    "label": "今天",
    "start_date": "2026-10-18",
    "end_date": "2026-10-18",
-   "count": 0,
-   "data": []
+   "count": 1,
+   "data": [
+    {
+     "stock_code": "301377",
+     "short_name": "鼎泰高科",
+     "title": "关于实际控制人之一、董事长提议回购公司股份的提示性公告",
+     "publish_time": "2026-10-18T20:43:53+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-18/1225610043.pdf"
+    }
+   ]
   },
   "last2": {
    "label": "近2天",
    "start_date": "2026-10-17",
    "end_date": "2026-10-18",
-   "count": 1113,
+   "count": 1114,
    "data": [
+    {
+     "stock_code": "301377",
+     "short_name": "鼎泰高科",
+     "title": "关于实际控制人之一、董事长提议回购公司股份的提示性公告",
+     "publish_time": "2026-10-18T20:43:53+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-18/1225610043.pdf"
+    },
     {
      "stock_code": "000016",
      "short_name": "*ST康佳A",
@@ -8366,8 +8381,15 @@
    "label": "近3天",
    "start_date": "2026-10-16",
    "end_date": "2026-10-18",
-   "count": 2122,
+   "count": 2123,
    "data": [
+    {
+     "stock_code": "301377",
+     "short_name": "鼎泰高科",
+     "title": "关于实际控制人之一、董事长提议回购公司股份的提示性公告",
+     "publish_time": "2026-10-18T20:43:53+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-18/1225610043.pdf"
+    },
     {
      "stock_code": "000016",
      "short_name": "*ST康佳A",
