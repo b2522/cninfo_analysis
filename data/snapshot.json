@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T16:30:30+08:00",
- "last_scraped_at": "2026-10-18T16:30:30+08:00",
+ "generated_at": "2026-10-18T17:00:22+08:00",
+ "last_scraped_at": "2026-10-18T17:00:22+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-19",
    "end_date": "2026-10-19",
-   "count": 73,
+   "count": 75,
    "data": [
     {
      "stock_code": "000530",
@@ -42,6 +42,20 @@
      "title": "关于涉及担保诉讼事项进展的公告",
      "publish_time": "2026-10-19T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610039.PDF"
+    },
+    {
+     "stock_code": "002207",
+     "short_name": "*ST准油",
+     "title": "第八届董事会第二十次（临时）会议决议公告",
+     "publish_time": "2026-10-19T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610031.pdf"
+    },
+    {
+     "stock_code": "002207",
+     "short_name": "*ST准油",
+     "title": "关于接受控股股东赠与现金资产暨关联交易的公告",
+     "publish_time": "2026-10-19T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610032.pdf"
     },
     {
      "stock_code": "002254",
