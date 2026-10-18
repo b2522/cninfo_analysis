@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T17:00:22+08:00",
- "last_scraped_at": "2026-10-18T17:00:22+08:00",
+ "generated_at": "2026-10-18T17:30:23+08:00",
+ "last_scraped_at": "2026-10-18T17:30:23+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-19",
    "end_date": "2026-10-19",
-   "count": 75,
+   "count": 78,
    "data": [
     {
      "stock_code": "000530",
@@ -247,11 +247,32 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610004.PDF"
     },
     {
+     "stock_code": "600346",
+     "short_name": "恒力石化",
+     "title": "恒力石化2026年前三季度业绩预增公告",
+     "publish_time": "2026-10-19T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610042.PDF"
+    },
+    {
      "stock_code": "600368",
      "short_name": "五洲交通",
      "title": "五洲交通关于回购股份事项前十名股东和前十名无限售条件股东持股情况的公告",
      "publish_time": "2026-10-19T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610001.PDF"
+    },
+    {
+     "stock_code": "600392",
+     "short_name": "盛和资源",
+     "title": "盛和资源控股股份有限公司关于转让控股子公司部分股权的公告",
+     "publish_time": "2026-10-19T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610040.PDF"
+    },
+    {
+     "stock_code": "600392",
+     "short_name": "盛和资源",
+     "title": "盛和资源控股股份有限公司第九届董事会第十次会议决议公告",
+     "publish_time": "2026-10-19T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610041.PDF"
     },
     {
      "stock_code": "600409",
