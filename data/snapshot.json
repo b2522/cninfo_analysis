@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-19T20:30:24+08:00",
- "last_scraped_at": "2026-10-19T20:30:24+08:00",
+ "generated_at": "2026-10-19T20:54:13+08:00",
+ "last_scraped_at": "2026-10-19T20:54:13+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-10-20",
    "end_date": "2026-10-20",
-   "count": 897,
+   "count": 926,
    "data": [
     {
      "stock_code": "000002",
@@ -317,6 +317,41 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610435.PDF"
     },
     {
+     "stock_code": "000978",
+     "short_name": "桂林旅游",
+     "title": "关于公开挂牌转让全资子公司100%股权暨债权的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611417.PDF"
+    },
+    {
+     "stock_code": "000978",
+     "short_name": "桂林旅游",
+     "title": "桂林桂圳投资置业有限责任公司审计报告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611418.PDF"
+    },
+    {
+     "stock_code": "000978",
+     "short_name": "桂林旅游",
+     "title": "拟公开挂牌转让持有桂林桂圳投资置业有限责任公司的股权及债权资产评估项目资产评估报告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611419.PDF"
+    },
+    {
+     "stock_code": "000978",
+     "short_name": "桂林旅游",
+     "title": "第七届董事会2026年第六次会议决议公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611420.PDF"
+    },
+    {
+     "stock_code": "000978",
+     "short_name": "桂林旅游",
+     "title": "关于对全资子公司担保拟解除的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611421.PDF"
+    },
+    {
      "stock_code": "001203",
      "short_name": "大中矿业",
      "title": "关于公司独立董事接受纪律审查和监察调查的公告",
@@ -413,6 +448,13 @@
      "title": "关于控股股东部分股份解除质押的公告",
      "publish_time": "2026-10-20T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610122.PDF"
+    },
+    {
+     "stock_code": "001381",
+     "short_name": "皇冠新材",
+     "title": "首次公开发行股票并在主板上市网上申购情况及中签率公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611221.PDF"
     },
     {
      "stock_code": "001399",
@@ -1178,6 +1220,118 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610685.PDF"
     },
     {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于持股5%以上股东权益变动触及1%整数倍暨后续增持计划的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611380.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "第七届董事会第二十五次会议决议公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611381.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于召开2026年第四次临时股东会的通知",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611382.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于董事、董事长辞职暨补选董事的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611383.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于独立董事辞职暨补选独立董事的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611384.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事候选人声明与承诺（郭天铸）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611385.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事提名人声明与承诺（郭天铸）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611386.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事提名人声明与承诺（梁新权）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611387.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事提名人声明与承诺（王超）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611388.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "董事会提名委员会关于董事候选人任职资格的审查意见",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611389.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事候选人声明与承诺（王超）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611390.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "独立董事候选人声明与承诺（梁新权）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611391.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于参加独立董事培训并取得独立董事培训证明的承诺函(梁新权)",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611392.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于修订《公司章程》的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611393.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "公司章程（2026年10月修订）",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611394.PDF"
+    },
+    {
+     "stock_code": "002667",
+     "short_name": "*ST威领",
+     "title": "关于调整独立董事津贴的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611395.PDF"
+    },
+    {
      "stock_code": "002706",
      "short_name": "良信股份",
      "title": "关于董事长提议回购公司股份的提示性公告",
@@ -1204,6 +1358,13 @@
      "title": "第七届董事会2026年第五次会议决议公告",
      "publish_time": "2026-10-20T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610630.PDF"
+    },
+    {
+     "stock_code": "002724",
+     "short_name": "海洋王",
+     "title": "关于股票交易异常波动公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611416.PDF"
     },
     {
      "stock_code": "002749",
@@ -5663,6 +5824,48 @@
      "title": "井松智能2026年第三次临时股东会会议资料",
      "publish_time": "2026-10-20T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610136.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "苏州东微半导体股份有限公司关于2025年限制性股票激励计划预留授予第二类限制性股票第一个归属期条件成就的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611427.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "中金公司关于苏州东微半导体股份有限公司2025年限制性股票激励计划预留授予第一类限制性股票第一个限售期解除限售条件成就、预留授予第二类限制性股票第一个归属期条件成就之独立财务顾问报告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611428.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "苏州东微半导体股份有限公司第二届董事会第二十八次会议决议公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611429.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "浙江天册律师事务所关于苏州东微半导体股份有限公司2025年限制性股票激励计划预留授予部分第一个限售期和归属期解除限售及归属条件成就相关事项的法律意见书",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611430.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "苏州东微半导体股份有限公司关于2025年限制性股票激励计划预留授予第一类限制性股票第一个限售期解除限售条件成就的公告",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611431.PDF"
+    },
+    {
+     "stock_code": "688261",
+     "short_name": "东微半导",
+     "title": "苏州东微半导体股份有限公司董事会薪酬与考核委员会关于2025年限制性股票激励计划预留授予第一类限制性股票第一个解除限售期解除限售名单及第二类限制性股票第一个归属期归属名单的核查意见",
+     "publish_time": "2026-10-20T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611432.PDF"
     },
     {
      "stock_code": "688279",
