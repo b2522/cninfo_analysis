@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-01T16:00:26+08:00",
- "last_scraped_at": "2026-11-01T16:00:26+08:00",
+ "generated_at": "2026-11-01T16:30:26+08:00",
+ "last_scraped_at": "2026-11-01T16:30:26+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-02",
    "end_date": "2026-11-02",
-   "count": 34,
+   "count": 48,
    "data": [
     {
      "stock_code": "000712",
@@ -121,11 +121,39 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650962.PDF"
     },
     {
+     "stock_code": "601012",
+     "short_name": "隆基绿能",
+     "title": "关于“隆22转债”可选择回售的第九次提示性公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650991.PDF"
+    },
+    {
+     "stock_code": "601126",
+     "short_name": "四方股份",
+     "title": "四方股份关于以集中竞价交易方式回购公司股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650987.PDF"
+    },
+    {
      "stock_code": "601236",
      "short_name": "红塔证券",
      "title": "红塔证券股份有限公司关于股份回购进展公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650959.PDF"
+    },
+    {
+     "stock_code": "601611",
+     "short_name": "中国核建",
+     "title": "中国核建关于收到行政监管措施决定书的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650984.PDF"
+    },
+    {
+     "stock_code": "601616",
+     "short_name": "广电电气",
+     "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650989.PDF"
     },
     {
      "stock_code": "601618",
@@ -137,9 +165,23 @@
     {
      "stock_code": "603130",
      "short_name": "云中马",
+     "title": "浙江云中马股份有限公司关于股份回购进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650988.PDF"
+    },
+    {
+     "stock_code": "603130",
+     "short_name": "云中马",
      "title": "浙江云中马股份有限公司关于为全资子公司提供担保的进展公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650974.PDF"
+    },
+    {
+     "stock_code": "603225",
+     "short_name": "新凤鸣",
+     "title": "第七届董事会第六次会议决议公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650980.PDF"
     },
     {
      "stock_code": "603313",
@@ -154,6 +196,13 @@
      "title": "关于美东工厂收到火灾事故存货保险理赔款的公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650976.PDF"
+    },
+    {
+     "stock_code": "603325",
+     "short_name": "博隆技术",
+     "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650985.PDF"
     },
     {
      "stock_code": "603686",
@@ -184,11 +233,53 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650961.PDF"
     },
     {
+     "stock_code": "605507",
+     "short_name": "国邦医药",
+     "title": "国邦医药关于以集中竞价交易方式首次回购公司股份暨回购进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650981.PDF"
+    },
+    {
      "stock_code": "688004",
      "short_name": "博汇科技",
      "title": "博汇科技关于董事会延期换届及部分独立董事任期即将届满的提示性公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650972.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科独立董事提名人声明与承诺（王玮）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650979.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科独立董事提名人声明与承诺（蒋莉）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650983.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科独立董事候选人声明与承诺（张陶勇）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650986.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科董事会提名委员会关于提名第二届董事会独立董事候选人的审查意见",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650990.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科独立董事提名人声明与承诺（张陶勇）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650992.PDF"
     },
     {
      "stock_code": "688047",
@@ -245,6 +336,13 @@
      "title": "关于股东自愿承诺延长股份锁定期的公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650965.PDF"
+    },
+    {
+     "stock_code": "688827",
+     "short_name": "钶锐锶",
+     "title": "钶锐锶首次公开发行股票并在科创板上市网下初步配售结果及网上中签结果公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650982.PDF"
     }
    ]
   },
