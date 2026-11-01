@@ -1,13 +1,20 @@
 {
- "generated_at": "2026-11-01T16:30:26+08:00",
- "last_scraped_at": "2026-11-01T16:30:26+08:00",
+ "generated_at": "2026-11-01T17:00:27+08:00",
+ "last_scraped_at": "2026-11-01T17:00:27+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-02",
    "end_date": "2026-11-02",
-   "count": 48,
+   "count": 94,
    "data": [
+    {
+     "stock_code": "000426",
+     "short_name": "兴业银锡",
+     "title": "关于部分董事、高管增持公司股份计划的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651016.PDF"
+    },
     {
      "stock_code": "000712",
      "short_name": "锦龙股份",
@@ -23,6 +30,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225646629.PDF"
     },
     {
+     "stock_code": "002011",
+     "short_name": "盾安环境",
+     "title": "关于变更办公地址的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651012.PDF"
+    },
+    {
      "stock_code": "002130",
      "short_name": "沃尔核材",
      "title": "H股公告：翌日披露报表",
@@ -30,11 +44,116 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650655.PDF"
     },
     {
+     "stock_code": "002191",
+     "short_name": "劲嘉股份",
+     "title": "关于公司控股股东及实际控制人前期仲裁及执行案件的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651013.PDF"
+    },
+    {
      "stock_code": "002481",
      "short_name": "双塔食品",
      "title": "关于回购股份方案实施进展的公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225646784.PDF"
+    },
+    {
+     "stock_code": "002788",
+     "short_name": "鹭燕医药",
+     "title": "第六届董事会第十三次会议决议公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651014.PDF"
+    },
+    {
+     "stock_code": "002788",
+     "short_name": "鹭燕医药",
+     "title": "关于召开2026年第一次临时股东会的通知",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651015.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "西藏高争民爆股份有限公司发行股份购买资产并募集配套资金暨关联交易预案",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650626.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次重大资产重组采取的保密措施及保密制度的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650627.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易履行法定程序的完备性、合规性及提交法律文件有效性的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650628.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "西藏高争民爆股份有限公司发行股份购买资产并募集配套资金暨关联交易预案（摘要）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650629.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易预计构成重大资产重组、关联交易、不构成重组上市的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650630.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易符合《上市公司监管指引第9号—上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650631.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易相关主体不存在《上市公司监管指引第7号—上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号—重大资产重组》第三十条情形的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650632.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易不存在《上市公司证券发行注册管理办法》第十一条规定的不得向特定对象发行股票的情形的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650633.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条和第四十四条规定的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650634.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次重组信息公布前公司股票价格波动情况的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650635.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "关于本次重组前12个月内购买、出售资产情况的说明",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650636.PDF"
+    },
+    {
+     "stock_code": "002827",
+     "short_name": "高争民爆",
+     "title": "第四届董事会独立董事专门会议第十一次会议决议",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650637.PDF"
     },
     {
      "stock_code": "002827",
@@ -72,6 +191,62 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225646122.PDF"
     },
     {
+     "stock_code": "300477",
+     "short_name": "ST合纵",
+     "title": "关于收到中国证券监督管理委员会立案告知书的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650594.PDF"
+    },
+    {
+     "stock_code": "300657",
+     "short_name": "弘信电子",
+     "title": "关于董事长提议回购公司部分股份的提示性公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651009.PDF"
+    },
+    {
+     "stock_code": "301089",
+     "short_name": "拓新药业",
+     "title": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651010.PDF"
+    },
+    {
+     "stock_code": "301269",
+     "short_name": "华大九天",
+     "title": "关于对外投资暨收购奇捷科技（深圳）有限公司控制权的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650496.PDF"
+    },
+    {
+     "stock_code": "301269",
+     "short_name": "华大九天",
+     "title": "第二届董事会第三十一次会议决议公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650497.PDF"
+    },
+    {
+     "stock_code": "301510",
+     "short_name": "固高科技",
+     "title": "关于2026年前三季度计提资产减值准备的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651011.PDF"
+    },
+    {
+     "stock_code": "600104",
+     "short_name": "上汽集团",
+     "title": "上汽集团2026年10月份产销快报",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651017.PDF"
+    },
+    {
+     "stock_code": "600141",
+     "short_name": "兴发集团",
+     "title": "湖北兴发化工集团股份有限公司关于控股股东全资子公司增持股份进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650997.PDF"
+    },
+    {
      "stock_code": "600157",
      "short_name": "永泰能源",
      "title": "永泰能源集团股份有限公司关于股份回购进展公告",
@@ -86,11 +261,32 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650967.PDF"
     },
     {
+     "stock_code": "600363",
+     "short_name": "ST联光",
+     "title": "关于中证中小投资者服务中心《股东质询函》的回复公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651026.PDF"
+    },
+    {
      "stock_code": "600449",
      "short_name": "宁夏建材",
      "title": "宁夏建材关于股份回购进展公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650954.PDF"
+    },
+    {
+     "stock_code": "600537",
+     "short_name": "*ST亿晶",
+     "title": "亿晶光电科技股份有限公司关于与重整投资人签署预重整投资协议之补充协议的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651004.PDF"
+    },
+    {
+     "stock_code": "600537",
+     "short_name": "*ST亿晶",
+     "title": "亿晶光电科技股份有限公司第八届董事会第十八次会议决议公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651005.PDF"
     },
     {
      "stock_code": "600567",
@@ -135,6 +331,34 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650987.PDF"
     },
     {
+     "stock_code": "601127",
+     "short_name": "赛力斯",
+     "title": "关于股份回购进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651021.PDF"
+    },
+    {
+     "stock_code": "601127",
+     "short_name": "赛力斯",
+     "title": "2026年10月份产销快报",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651022.PDF"
+    },
+    {
+     "stock_code": "601127",
+     "short_name": "赛力斯",
+     "title": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651024.PDF"
+    },
+    {
+     "stock_code": "601127",
+     "short_name": "赛力斯",
+     "title": "投资者关系活动记录表",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651025.PDF"
+    },
+    {
      "stock_code": "601236",
      "short_name": "红塔证券",
      "title": "红塔证券股份有限公司关于股份回购进展公告",
@@ -163,6 +387,20 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650969.PDF"
     },
     {
+     "stock_code": "601619",
+     "short_name": "嘉泽新能",
+     "title": "嘉泽新能源股份有限公司关于回购股份进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651020.PDF"
+    },
+    {
+     "stock_code": "601633",
+     "short_name": "长城汽车",
+     "title": "长城汽车股份有限公司2026年10月产销快报",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650996.PDF"
+    },
+    {
      "stock_code": "603130",
      "short_name": "云中马",
      "title": "浙江云中马股份有限公司关于股份回购进展公告",
@@ -177,11 +415,39 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650974.PDF"
     },
     {
+     "stock_code": "603195",
+     "short_name": "公牛集团",
+     "title": "公牛集团股份有限公司关于以集中竞价交易方式回购股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651000.PDF"
+    },
+    {
+     "stock_code": "603209",
+     "short_name": "兴通股份",
+     "title": "兴通海运股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651008.PDF"
+    },
+    {
+     "stock_code": "603225",
+     "short_name": "新凤鸣",
+     "title": "对外投资公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650994.PDF"
+    },
+    {
      "stock_code": "603225",
      "short_name": "新凤鸣",
      "title": "第七届董事会第六次会议决议公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650980.PDF"
+    },
+    {
+     "stock_code": "603297",
+     "short_name": "永新光学",
+     "title": "宁波永新光学股份有限公司关于持股5%以上股东提前终止减持股份计划的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650993.PDF"
     },
     {
      "stock_code": "603313",
@@ -205,6 +471,20 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650985.PDF"
     },
     {
+     "stock_code": "603458",
+     "short_name": "勘设股份",
+     "title": "勘设股份持股5%以下股东及部分董事提前终止减持计划暨减持结果公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651001.PDF"
+    },
+    {
+     "stock_code": "603680",
+     "short_name": "今创集团",
+     "title": "关于全资子公司与专业投资机构合作投资的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651003.PDF"
+    },
+    {
      "stock_code": "603686",
      "short_name": "福龙马",
      "title": "福龙马：关于2026年10月环卫服务项目中标的提示性公告",
@@ -217,6 +497,20 @@
      "title": "福龙马：2026年度对外投资事项进展公告（六）",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650973.PDF"
+    },
+    {
+     "stock_code": "603912",
+     "short_name": "佳力图",
+     "title": "603912：佳力图关于公司及子公司使用部分闲置非公开发行股票募集资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650995.PDF"
+    },
+    {
+     "stock_code": "603979",
+     "short_name": "金诚信",
+     "title": "金诚信关于以集中竞价交易方式回购公司股份的进展公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650999.PDF"
     },
     {
      "stock_code": "605138",
@@ -245,6 +539,27 @@
      "title": "博汇科技关于董事会延期换届及部分独立董事任期即将届满的提示性公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650972.PDF"
+    },
+    {
+     "stock_code": "688036",
+     "short_name": "传音控股",
+     "title": "H股公告—致非登记股东之通知信函 - 发布公司通讯之新安排",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651006.PDF"
+    },
+    {
+     "stock_code": "688036",
+     "short_name": "传音控股",
+     "title": "H股公告—致登记股东之通知信函 - 发布公司通讯之新安排",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651007.PDF"
+    },
+    {
+     "stock_code": "688047",
+     "short_name": "龙芯中科",
+     "title": "龙芯中科独立董事候选人声明与承诺（王玮）",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650998.PDF"
     },
     {
      "stock_code": "688047",
@@ -329,6 +644,13 @@
      "title": "益方生物关于Nomelcitinib (D-2570) 治疗中重度斑块状银屑病III期临床研究达到主要终点的公告",
      "publish_time": "2026-11-02T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650958.PDF"
+    },
+    {
+     "stock_code": "688520",
+     "short_name": "神州细胞",
+     "title": "神州细胞关于控股股东、实际控制人自愿承诺不减持公司股份的公告",
+     "publish_time": "2026-11-02T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225651002.PDF"
     },
     {
      "stock_code": "688726",
