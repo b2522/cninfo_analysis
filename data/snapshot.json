@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T07:30:29+08:00",
- "last_scraped_at": "2026-11-03T07:30:29+08:00",
+ "generated_at": "2026-11-03T08:00:28+08:00",
+ "last_scraped_at": "2026-11-03T08:00:28+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -13,8 +13,22 @@
    "label": "今天",
    "start_date": "2026-11-03",
    "end_date": "2026-11-03",
-   "count": 1080,
+   "count": 1082,
    "data": [
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（翌日披露报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654454.PDF"
+    },
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（截至2026年10月31日止股份发行人的证券变动月报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654455.PDF"
+    },
     {
      "stock_code": "000002",
      "short_name": "万科A",
@@ -7581,8 +7595,22 @@
    "label": "近2天",
    "start_date": "2026-11-02",
    "end_date": "2026-11-03",
-   "count": 1226,
+   "count": 1228,
    "data": [
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（翌日披露报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654454.PDF"
+    },
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（截至2026年10月31日止股份发行人的证券变动月报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654455.PDF"
+    },
     {
      "stock_code": "000002",
      "short_name": "万科A",
@@ -16171,8 +16199,22 @@
    "label": "近3天",
    "start_date": "2026-11-01",
    "end_date": "2026-11-03",
-   "count": 1226,
+   "count": 1228,
    "data": [
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（翌日披露报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654454.PDF"
+    },
+    {
+     "stock_code": "300750",
+     "short_name": "宁德时代",
+     "title": "H股公告（截至2026年10月31日止股份发行人的证券变动月报表）",
+     "publish_time": "2026-11-03T07:45:55+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654455.PDF"
+    },
     {
      "stock_code": "000002",
      "short_name": "万科A",
