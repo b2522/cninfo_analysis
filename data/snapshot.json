@@ -1,13 +1,20 @@
 {
- "generated_at": "2026-11-08T16:30:34+08:00",
- "last_scraped_at": "2026-11-08T16:30:34+08:00",
+ "generated_at": "2026-11-08T17:00:26+08:00",
+ "last_scraped_at": "2026-11-08T17:00:26+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-09",
    "end_date": "2026-11-09",
-   "count": 59,
+   "count": 70,
    "data": [
+    {
+     "stock_code": "000426",
+     "short_name": "兴业银锡",
+     "title": "关于召开投资者交流会的公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662760.PDF"
+    },
     {
      "stock_code": "000601",
      "short_name": "韶能股份",
@@ -198,6 +205,13 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662722.PDF"
     },
     {
+     "stock_code": "600348",
+     "short_name": "华阳股份",
+     "title": "山西华阳集团新能股份有限公司关于于家庄煤矿取得采矿许可证及不动产权证书（采矿权）的公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662770.PDF"
+    },
+    {
      "stock_code": "600507",
      "short_name": "方大特钢",
      "title": "方大特钢高级管理人员变动公告",
@@ -210,6 +224,27 @@
      "title": "亿晶光电科技股份有限公司关于公司破产重整具有重大不确定性暨退市风险的提示公告",
      "publish_time": "2026-11-09T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662730.PDF"
+    },
+    {
+     "stock_code": "600801",
+     "short_name": "华新建材",
+     "title": "关于收购巴西CSN CIMENTOS股权的公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662767.PDF"
+    },
+    {
+     "stock_code": "600801",
+     "short_name": "华新建材",
+     "title": "关于开展外汇衍生品交易的公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662769.PDF"
+    },
+    {
+     "stock_code": "600801",
+     "short_name": "华新建材",
+     "title": "第十一届董事会第三十一次会议决议公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662771.PDF"
     },
     {
      "stock_code": "600981",
@@ -238,6 +273,34 @@
      "title": "江苏常熟农村商业银行股份有限公司2026年半年度权益分派实施公告",
      "publish_time": "2026-11-09T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662739.PDF"
+    },
+    {
+     "stock_code": "601700",
+     "short_name": "风范股份",
+     "title": "北京德和衡律师事务所关于河北国信产融控股集团有限公司免于发出要约事宜之法律意见书",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662762.PDF"
+    },
+    {
+     "stock_code": "601700",
+     "short_name": "风范股份",
+     "title": "北京博星证券投资顾问有限公司关于常熟风范电力设备股份有限公司收购报告书之财务顾问报告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662763.PDF"
+    },
+    {
+     "stock_code": "601700",
+     "short_name": "风范股份",
+     "title": "北京德和衡律师事务所关于《常熟风范电力设备股份有限公司收购报告书》之法律意见书",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662764.PDF"
+    },
+    {
+     "stock_code": "601700",
+     "short_name": "风范股份",
+     "title": "常熟风范电力设备股份有限公司收购报告书",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662765.PDF"
     },
     {
      "stock_code": "603102",
@@ -294,6 +357,20 @@
      "title": "天安新材关于第五届董事会第九次会议决议的公告",
      "publish_time": "2026-11-09T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662747.PDF"
+    },
+    {
+     "stock_code": "603920",
+     "short_name": "世运电路",
+     "title": "世运电路第五届董事会第十九次会议决议公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662766.PDF"
+    },
+    {
+     "stock_code": "603920",
+     "short_name": "世运电路",
+     "title": "世运电路关于2026年第二期以集中竞价交易方式回购股份方案的公告",
+     "publish_time": "2026-11-09T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-09/1225662768.PDF"
     },
     {
      "stock_code": "603937",
