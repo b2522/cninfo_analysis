@@ -1,20 +1,1414 @@
 {
- "generated_at": "2026-11-16T15:30:29+08:00",
- "last_scraped_at": "2026-11-16T15:30:29+08:00",
+ "generated_at": "2026-11-16T16:30:29+08:00",
+ "last_scraped_at": "2026-11-16T16:30:29+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-17",
    "end_date": "2026-11-17",
-   "count": 0,
-   "data": []
+   "count": 168,
+   "data": [
+    {
+     "stock_code": "000301",
+     "short_name": "东方盛虹",
+     "title": "关于预计触发“盛虹转债”转股价格向下修正条件的提示性公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672673.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "十届二十九次董事会决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672588.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "关于2021年限制性股票激励计划预留授予部分第三个解除限售期解除限售条件成就的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672589.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "董事会薪酬与考核委员会关于2021年限制性股票激励计划预留授予部分第三个解除限售期解除限售条件成就及回购注销部分激励对象已获授但尚未解除限售的限制性股票并调整回购价格的核查意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672590.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "北京大成（杭州）律师事务所关于浙江英特集团股份有限公司2021年限制性股票激励计划预留授予部分第三个解除限售期解除限售条件成就及回购注销部分激励对象已获授但尚未解除限售的限制性股票并调整回购价格事项的法律意见书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672591.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "上海荣正企业咨询服务（集团）股份有限公司关于浙江英特集团股份有限公司2021年限制性股票激励计划预留授予部分第三个解除限售期解除限售条件成就相关事项之独立财务顾问报告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672592.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "关于回购注销2021年限制性股票激励计划预留授予部分激励对象已获授但尚未解除限售的限制性股票的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672593.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "关于调整2021年限制性股票激励计划预留授予部分回购价格的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672594.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "上海荣正企业咨询服务（集团）股份有限公司关于浙江英特集团股份有限公司回购注销2021年限制性股票激励计划预留授予部分限制性股票及调整预留授予部分回购价格相关事项之独立财务顾问报告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672595.PDF"
+    },
+    {
+     "stock_code": "000411",
+     "short_name": "英特集团",
+     "title": "2026年度第一期超短期融资券兑付公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672596.PDF"
+    },
+    {
+     "stock_code": "000565",
+     "short_name": "渝三峡Ａ",
+     "title": "公告2026-055：关于重庆化医控股集团财务有限公司以未分配利润转增注册资本暨关联交易的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672551.PDF"
+    },
+    {
+     "stock_code": "000650",
+     "short_name": "仁和药业",
+     "title": "关于公司产品通过谈判、竞价首次纳入国家医保目录的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672552.PDF"
+    },
+    {
+     "stock_code": "000915",
+     "short_name": "华特达因",
+     "title": "关于公司董事长退休辞职的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672581.PDF"
+    },
+    {
+     "stock_code": "000948",
+     "short_name": "南天信息",
+     "title": "第十届董事会第三次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672586.PDF"
+    },
+    {
+     "stock_code": "000948",
+     "short_name": "南天信息",
+     "title": "内部审计管理制度（2026年11月）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672587.PDF"
+    },
+    {
+     "stock_code": "001238",
+     "short_name": "浙江正特",
+     "title": "2026年第一次临时股东会决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672703.PDF"
+    },
+    {
+     "stock_code": "001238",
+     "short_name": "浙江正特",
+     "title": "北京植德律师事务所关于浙江正特股份有限公司2026年第一次临时股东会的法律意见书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672704.PDF"
+    },
+    {
+     "stock_code": "001238",
+     "short_name": "浙江正特",
+     "title": "关于回购注销部分限制性股票并减少注册资本暨通知债权人的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672705.PDF"
+    },
+    {
+     "stock_code": "001255",
+     "short_name": "博菲电气",
+     "title": "关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672606.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "关于向不特定对象发行可转换公司债券提交募集说明书（注册稿）等申请文件的提示性公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672553.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "募集说明书（注册稿）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672554.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "证券发行保荐书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672555.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "法律意见书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672556.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "上市保荐书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672557.PDF"
+    },
+    {
+     "stock_code": "001282",
+     "short_name": "三联锻造",
+     "title": "发行人最近三年及一期的财务报告及其审计报告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672558.PDF"
+    },
+    {
+     "stock_code": "001288",
+     "short_name": "运机集团",
+     "title": "关于公司与专业投资机构共同投资的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672675.PDF"
+    },
+    {
+     "stock_code": "001299",
+     "short_name": "美能能源",
+     "title": "第四届董事会第六次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672582.PDF"
+    },
+    {
+     "stock_code": "001299",
+     "short_name": "美能能源",
+     "title": "关于召开2026年第二次临时股东会的通知",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672583.PDF"
+    },
+    {
+     "stock_code": "001299",
+     "short_name": "美能能源",
+     "title": "关于部分募投项目结项、终止并将剩余募集资金变更用于其他募投项目及延期的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672584.PDF"
+    },
+    {
+     "stock_code": "001299",
+     "short_name": "美能能源",
+     "title": "西部证券股份有限公司关于陕西美能清洁能源集团股份有限公司部分募投项目结项、终止并将剩余募集资金变更用于其他募投项目及延期的核查意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672585.PDF"
+    },
+    {
+     "stock_code": "001309",
+     "short_name": "德明利",
+     "title": "关于控股股东部分股份质押及解除质押的更正公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672658.PDF"
+    },
+    {
+     "stock_code": "002046",
+     "short_name": "国机精工",
+     "title": "关于证券事务代表辞职的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672550.PDF"
+    },
+    {
+     "stock_code": "002062",
+     "short_name": "宏润建设",
+     "title": "关于股东所持公司部分股份解除质押的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672572.PDF"
+    },
+    {
+     "stock_code": "002067",
+     "short_name": "景兴纸业",
+     "title": "关于全资孙公司完成减资工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672571.PDF"
+    },
+    {
+     "stock_code": "002079",
+     "short_name": "苏州固锝",
+     "title": "2026年员工持股计划第一次持有人会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672607.PDF"
+    },
+    {
+     "stock_code": "002090",
+     "short_name": "金智科技",
+     "title": "关于回购公司股份比例达到1%的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672699.PDF"
+    },
+    {
+     "stock_code": "002090",
+     "short_name": "金智科技",
+     "title": "关于中标项目的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672700.PDF"
+    },
+    {
+     "stock_code": "002103",
+     "short_name": "广博股份",
+     "title": "关于公司股东部分股份解除质押的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672608.PDF"
+    },
+    {
+     "stock_code": "002142",
+     "short_name": "宁波银行",
+     "title": "宁波银行股份有限公司关于2026年金融债券（第一期）发行完毕的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672559.PDF"
+    },
+    {
+     "stock_code": "002191",
+     "short_name": "劲嘉股份",
+     "title": "关于公司债权逾期事项的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672610.PDF"
+    },
+    {
+     "stock_code": "002212",
+     "short_name": "天融信",
+     "title": "第八届董事会第五次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672560.PDF"
+    },
+    {
+     "stock_code": "002212",
+     "short_name": "天融信",
+     "title": "关于〝奋斗者〞第二期员工持股计划预留部分第一个锁定期届满暨解锁条件成就的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672561.PDF"
+    },
+    {
+     "stock_code": "002252",
+     "short_name": "上海莱士",
+     "title": "关于全资子公司获得药物临床试验批准通知书的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672690.PDF"
+    },
+    {
+     "stock_code": "002253",
+     "short_name": "川大智胜",
+     "title": "关于部分关联借款逾期暨后续债务潜在逾期的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672548.PDF"
+    },
+    {
+     "stock_code": "002262",
+     "short_name": "恩华药业",
+     "title": "关于获得《药品注册证书》的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672549.PDF"
+    },
+    {
+     "stock_code": "002413",
+     "short_name": "雷科防务",
+     "title": "关于2026年限制性股票激励计划授予登记完成的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672674.PDF"
+    },
+    {
+     "stock_code": "002443",
+     "short_name": "金洲管道",
+     "title": "第八届董事会第九次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672642.PDF"
+    },
+    {
+     "stock_code": "002443",
+     "short_name": "金洲管道",
+     "title": "关于解聘公司副总经理兼财务总监及指定人员代行财务总监职责的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672643.PDF"
+    },
+    {
+     "stock_code": "002606",
+     "short_name": "大连电瓷",
+     "title": "第六届董事会2026年第四次临时会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672563.PDF"
+    },
+    {
+     "stock_code": "002606",
+     "short_name": "大连电瓷",
+     "title": "大连电瓷集团股份有限公司关于召开2026年第二次临时股东会的通知",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672564.PDF"
+    },
+    {
+     "stock_code": "002606",
+     "short_name": "大连电瓷",
+     "title": "关于为香港全资子公司新增担保额度预计的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672565.PDF"
+    },
+    {
+     "stock_code": "002606",
+     "short_name": "大连电瓷",
+     "title": "大连电瓷集团股份有限公司拟变更会计师事务所的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672566.PDF"
+    },
+    {
+     "stock_code": "002626",
+     "short_name": "金达威",
+     "title": "关于注销募集资金专项账户的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672640.PDF"
+    },
+    {
+     "stock_code": "002653",
+     "short_name": "海思科",
+     "title": "关于1类新药苯磺酸克利加巴林胶囊和考格列汀片被纳入国家医保目录的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672562.PDF"
+    },
+    {
+     "stock_code": "002662",
+     "short_name": "峰璟股份",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672702.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "第五届董事会第三十五次（临时）会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672676.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "关于董事会换届选举的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672677.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "第五届董事会提名委员会关于第六届董事会董事候选人任职资格的审查意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672678.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事候选人声明与承诺（张玉箱）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672679.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事提名人声明与承诺（张文魁）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672680.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事提名人声明与承诺（张玉箱）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672681.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事候选人声明与承诺（赖向东）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672682.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事候选人声明与承诺（张文魁）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672683.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "独立董事提名人声明与承诺（赖向东）",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672684.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "关于注销部分股票期权的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672685.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "第五届董事会薪酬与考核委员会关于注销部分股票期权的核查意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672686.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "广东信达律师事务所关于深圳市科达利实业股份有限公司2021年、2022年股票期权激励计划注销部分股票期权的法律意见书",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672687.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "关于变更公司注册资本及修订《公司章程》的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672688.PDF"
+    },
+    {
+     "stock_code": "002850",
+     "short_name": "科达利",
+     "title": "公司章程",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672689.PDF"
+    },
+    {
+     "stock_code": "002859",
+     "short_name": "洁美科技",
+     "title": "关于为全资子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672641.PDF"
+    },
+    {
+     "stock_code": "002946",
+     "short_name": "新乳业",
+     "title": "关于审计机构变更项目合伙人及签字注册会计师的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672659.PDF"
+    },
+    {
+     "stock_code": "002988",
+     "short_name": "豪美新材",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672609.PDF"
+    },
+    {
+     "stock_code": "003017",
+     "short_name": "大洋生物",
+     "title": "关于使用部分闲置募集资金进行现金管理到期赎回的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672701.PDF"
+    },
+    {
+     "stock_code": "300359",
+     "short_name": "全通教育",
+     "title": "第四届董事会第四十二次临时会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672613.PDF"
+    },
+    {
+     "stock_code": "300359",
+     "short_name": "全通教育",
+     "title": "关于召开2026年第二次临时股东会的通知",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672614.PDF"
+    },
+    {
+     "stock_code": "300359",
+     "short_name": "全通教育",
+     "title": "关于补选非独立董事的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672615.PDF"
+    },
+    {
+     "stock_code": "300556",
+     "short_name": "丝路视觉",
+     "title": "关于为全资子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672612.PDF"
+    },
+    {
+     "stock_code": "300657",
+     "short_name": "弘信电子",
+     "title": "关于回购公司股份比例达到1%暨回购进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672669.PDF"
+    },
+    {
+     "stock_code": "301290",
+     "short_name": "东星医疗",
+     "title": "第四届董事会第二十四次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672671.PDF"
+    },
+    {
+     "stock_code": "301290",
+     "short_name": "东星医疗",
+     "title": "关于以债转股方式对全资子公司增资的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672672.PDF"
+    },
+    {
+     "stock_code": "600075",
+     "short_name": "新疆天业",
+     "title": "新疆天业股份有限公司关于股权收购的关联交易进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672663.PDF"
+    },
+    {
+     "stock_code": "600081",
+     "short_name": "东风科技",
+     "title": "东风电子科技股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672598.PDF"
+    },
+    {
+     "stock_code": "600081",
+     "short_name": "东风科技",
+     "title": "东风电子科技股份有限公司2026年第二次临时股东会资料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672733.PDF"
+    },
+    {
+     "stock_code": "600197",
+     "short_name": "伊力特",
+     "title": "新疆伊力特实业股份有限公司变更会计师事务所的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672707.PDF"
+    },
+    {
+     "stock_code": "600197",
+     "short_name": "伊力特",
+     "title": "新疆伊力特实业股份有限公司关于2026年第一次临时股东会增加临时提案的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672708.PDF"
+    },
+    {
+     "stock_code": "600197",
+     "short_name": "伊力特",
+     "title": "新疆伊力特实业股份有限公司九届二十七次董事会会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672710.PDF"
+    },
+    {
+     "stock_code": "600255",
+     "short_name": "鑫科材料",
+     "title": "鑫科材料关于质押子公司股权向银行申请并购贷款的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672602.PDF"
+    },
+    {
+     "stock_code": "600312",
+     "short_name": "平高电气",
+     "title": "河南平高电气股份有限公司第九届董事会第二十五次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672693.PDF"
+    },
+    {
+     "stock_code": "600316",
+     "short_name": "洪都航空",
+     "title": "江西洪都航空工业股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672512.PDF"
+    },
+    {
+     "stock_code": "600332",
+     "short_name": "白云山",
+     "title": "广州白云山医药集团股份有限公司关于全资子公司参与投资沃博资本大健康有限合伙基金的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672694.PDF"
+    },
+    {
+     "stock_code": "600346",
+     "short_name": "恒力石化",
+     "title": "恒力石化关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672508.PDF"
+    },
+    {
+     "stock_code": "600346",
+     "short_name": "恒力石化",
+     "title": "恒力石化股份有限公司2026年第一次临时股东会会议材料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672518.PDF"
+    },
+    {
+     "stock_code": "600351",
+     "short_name": "亚宝药业",
+     "title": "亚宝药业集团股份有限公司关于回购股份比例达到1%暨回购进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672649.PDF"
+    },
+    {
+     "stock_code": "600388",
+     "short_name": "紫金龙净",
+     "title": "关于选举职工董事暨董事离任、调整审计委员会成员的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672498.PDF"
+    },
+    {
+     "stock_code": "600388",
+     "short_name": "紫金龙净",
+     "title": "第十届董事会第三十三次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672530.PDF"
+    },
+    {
+     "stock_code": "600403",
+     "short_name": "大有能源",
+     "title": "中信证券股份有限公司关于中国平煤神马控股集团有限公司免于发出要约收购河南大有能源股份有限公司之2026年三季度持续督导意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672511.PDF"
+    },
+    {
+     "stock_code": "600488",
+     "short_name": "津药药业",
+     "title": "津药药业股份有限公司关于收到化学原料药上市申请批准通知书的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672509.PDF"
+    },
+    {
+     "stock_code": "600530",
+     "short_name": "ST交昂",
+     "title": "股票交易风险提示公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672692.PDF"
+    },
+    {
+     "stock_code": "600531",
+     "short_name": "豫光金铅",
+     "title": "河南豫光金铅股份有限公司关于2026年第三季度业绩说明会召开情况的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672569.PDF"
+    },
+    {
+     "stock_code": "600559",
+     "short_name": "老白干酒",
+     "title": "河北衡水老白干酒业股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672525.PDF"
+    },
+    {
+     "stock_code": "600587",
+     "short_name": "新华医疗",
+     "title": "新华医疗关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672515.PDF"
+    },
+    {
+     "stock_code": "600590",
+     "short_name": "泰豪科技",
+     "title": "关于第二大股东部分股份质押的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672503.PDF"
+    },
+    {
+     "stock_code": "600639",
+     "short_name": "浦东金桥",
+     "title": "浦东金桥关于董事会秘书离任的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672527.PDF"
+    },
+    {
+     "stock_code": "600655",
+     "short_name": "豫园股份",
+     "title": "上海豫园旅游商城（集团）股份有限公司关于股东部分股份解除质押及质押的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672529.PDF"
+    },
+    {
+     "stock_code": "600758",
+     "short_name": "辽宁能源",
+     "title": "关于召开2026年半年度暨第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672573.PDF"
+    },
+    {
+     "stock_code": "600797",
+     "short_name": "浙大网新",
+     "title": "浙大网新科技股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672567.PDF"
+    },
+    {
+     "stock_code": "600819",
+     "short_name": "耀皮玻璃",
+     "title": "关于召开2026年半年度暨第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672502.PDF"
+    },
+    {
+     "stock_code": "600820",
+     "short_name": "隧道股份",
+     "title": "上海隧道工程股份有限公司关于公司副总裁、总审计师辞职的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672501.PDF"
+    },
+    {
+     "stock_code": "600820",
+     "short_name": "隧道股份",
+     "title": "上海隧道工程股份有限公司关于财务负责人离任暨聘任财务负责人的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672506.PDF"
+    },
+    {
+     "stock_code": "600820",
+     "short_name": "隧道股份",
+     "title": "上海隧道工程股份有限公司第十届董事会第七十二次会议决议",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672514.PDF"
+    },
+    {
+     "stock_code": "600820",
+     "short_name": "隧道股份",
+     "title": "上海隧道工程股份有限公司第十届董事会第七十二次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672516.PDF"
+    },
+    {
+     "stock_code": "600844",
+     "short_name": "金煤科技",
+     "title": "关于控股子公司涉及诉讼的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672494.PDF"
+    },
+    {
+     "stock_code": "600871",
+     "short_name": "石化油服",
+     "title": "第十一届董事会第十六次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672645.PDF"
+    },
+    {
+     "stock_code": "600871",
+     "short_name": "石化油服",
+     "title": "关于公司总经理离任暨选举董事长及变更法定代表人的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672653.PDF"
+    },
+    {
+     "stock_code": "600883",
+     "short_name": "博闻科技",
+     "title": "云南博闻科技实业股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672522.PDF"
+    },
+    {
+     "stock_code": "601512",
+     "short_name": "中新集团",
+     "title": "中新集团关于中证中小投资者服务中心有限责任公司公开征集投票权的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672493.PDF"
+    },
+    {
+     "stock_code": "601512",
+     "short_name": "中新集团",
+     "title": "中新集团关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672504.PDF"
+    },
+    {
+     "stock_code": "601606",
+     "short_name": "长城军工",
+     "title": "安徽长城军工股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672652.PDF"
+    },
+    {
+     "stock_code": "601616",
+     "short_name": "广电电气",
+     "title": "第六届董事会第二十五次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672647.PDF"
+    },
+    {
+     "stock_code": "601616",
+     "short_name": "广电电气",
+     "title": "关于增加股份回购资金来源的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672651.PDF"
+    },
+    {
+     "stock_code": "601616",
+     "short_name": "广电电气",
+     "title": "关于公司新增2026年度日常性关联交易预计的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672654.PDF"
+    },
+    {
+     "stock_code": "601616",
+     "short_name": "广电电气",
+     "title": "关于公司及子公司新增申请银行综合授信额度的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672655.PDF"
+    },
+    {
+     "stock_code": "601702",
+     "short_name": "华峰铝业",
+     "title": "关于为全资子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672496.PDF"
+    },
+    {
+     "stock_code": "601990",
+     "short_name": "南京证券",
+     "title": "南京证券股份有限公司关于高级管理人员离任的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672521.PDF"
+    },
+    {
+     "stock_code": "603000",
+     "short_name": "人民网",
+     "title": "人民网股份有限公司第六届董事会第十次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672575.PDF"
+    },
+    {
+     "stock_code": "603018",
+     "short_name": "华设集团",
+     "title": "关于2026年第三季度业绩说明会情况的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672623.PDF"
+    },
+    {
+     "stock_code": "603022",
+     "short_name": "新通联",
+     "title": "新通联关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672531.PDF"
+    },
+    {
+     "stock_code": "603031",
+     "short_name": "安孚科技",
+     "title": "安徽安孚电池科技股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672570.PDF"
+    },
+    {
+     "stock_code": "603072",
+     "short_name": "天和磁材",
+     "title": "关于使用闲置自有资金进行现金管理的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672597.PDF"
+    },
+    {
+     "stock_code": "603109",
+     "short_name": "神驰机电",
+     "title": "关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672620.PDF"
+    },
+    {
+     "stock_code": "603126",
+     "short_name": "中材节能",
+     "title": "中材节能股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672735.PDF"
+    },
+    {
+     "stock_code": "603175",
+     "short_name": "超颖电子",
+     "title": "关于2026年股票期权激励计划授予预留股票期权登记完成的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672691.PDF"
+    },
+    {
+     "stock_code": "603186",
+     "short_name": "华正新材",
+     "title": "浙江华正新材料股份有限公司关于调整回购股份资金来源暨收到回购专项贷款承诺函的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672646.PDF"
+    },
+    {
+     "stock_code": "603212",
+     "short_name": "赛伍技术",
+     "title": "关于公司实控人、董事长提议回购公司股份的提示性公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672660.PDF"
+    },
+    {
+     "stock_code": "603276",
+     "short_name": "恒兴新材",
+     "title": "关于使用部分闲置募集资金进行现金管理赎回的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672497.PDF"
+    },
+    {
+     "stock_code": "603318",
+     "short_name": "水发燃气",
+     "title": "水发派思燃气股份有限公司2026年第三次临时股东会材料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672519.PDF"
+    },
+    {
+     "stock_code": "603332",
+     "short_name": "苏州龙杰",
+     "title": "关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672517.PDF"
+    },
+    {
+     "stock_code": "603369",
+     "short_name": "今世缘",
+     "title": "江苏今世缘酒业股份有限公司关于2020年股票期权激励计划剩余股票期权注销完成的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672574.PDF"
+    },
+    {
+     "stock_code": "603379",
+     "short_name": "三美股份",
+     "title": "浙江三美化工股份有限公司关于变更审计项目合伙人及签字注册会计师的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672499.PDF"
+    },
+    {
+     "stock_code": "603385",
+     "short_name": "惠达卫浴",
+     "title": "关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672513.PDF"
+    },
+    {
+     "stock_code": "603666",
+     "short_name": "亿嘉和",
+     "title": "亿嘉和科技股份有限公司2026年第二次临时股东会会议资料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672507.PDF"
+    },
+    {
+     "stock_code": "603686",
+     "short_name": "福龙马",
+     "title": "福龙马：关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672621.PDF"
+    },
+    {
+     "stock_code": "603701",
+     "short_name": "德宏股份",
+     "title": "浙江德宏汽车电子电器股份有限公司关于为全资子公司提供担保的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672665.PDF"
+    },
+    {
+     "stock_code": "603708",
+     "short_name": "家家悦",
+     "title": "家家悦集团股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672648.PDF"
+    },
+    {
+     "stock_code": "603778",
+     "short_name": "国晟科技",
+     "title": "关于控股股东部分股份被冻结及轮候冻结的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672523.PDF"
+    },
+    {
+     "stock_code": "603839",
+     "short_name": "安正时尚",
+     "title": "安正时尚集团股份有限公司关于以集中竞价交易方式首次回购股份的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672599.PDF"
+    },
+    {
+     "stock_code": "603883",
+     "short_name": "老百姓",
+     "title": "关于与专业投资机构共同投资的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672661.PDF"
+    },
+    {
+     "stock_code": "603888",
+     "short_name": "新华网",
+     "title": "中国国际金融股份有限公司关于新华社投资控股有限公司豁免要约收购新华网股份有限公司的持续督导意见",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672706.PDF"
+    },
+    {
+     "stock_code": "603995",
+     "short_name": "甬金股份",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672500.PDF"
+    },
+    {
+     "stock_code": "603999",
+     "short_name": "读者传媒",
+     "title": "读者出版传媒股份有限公司第六届董事会第十次会议决议公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672495.PDF"
+    },
+    {
+     "stock_code": "603999",
+     "short_name": "读者传媒",
+     "title": "读者出版传媒股份有限公司关于董事、高级管理人员变动的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672505.PDF"
+    },
+    {
+     "stock_code": "605100",
+     "short_name": "华丰股份",
+     "title": "华丰动力股份有限公司关于新增回购专用证券账户的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672618.PDF"
+    },
+    {
+     "stock_code": "605228",
+     "short_name": "神通科技",
+     "title": "关于使用暂时闲置募集资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672622.PDF"
+    },
+    {
+     "stock_code": "605296",
+     "short_name": "神农集团",
+     "title": "云南神农农业产业集团股份有限公司2026年10月对外担保情况公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672662.PDF"
+    },
+    {
+     "stock_code": "688138",
+     "short_name": "清溢光电",
+     "title": "2026年第二次临时股东会会议资料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672528.PDF"
+    },
+    {
+     "stock_code": "688258",
+     "short_name": "卓易信息",
+     "title": "江苏卓易信息科技股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672526.PDF"
+    },
+    {
+     "stock_code": "688259",
+     "short_name": "创耀科技",
+     "title": "关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672524.PDF"
+    },
+    {
+     "stock_code": "688281",
+     "short_name": "华秦科技",
+     "title": "关于中证中小投资者服务中心有限责任公司公开征集投票权的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672741.PDF"
+    },
+    {
+     "stock_code": "688391",
+     "short_name": "钜泉科技",
+     "title": "钜泉光电科技（上海）股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672520.PDF"
+    },
+    {
+     "stock_code": "688502",
+     "short_name": "茂莱光学",
+     "title": "关于“茂莱转债”2026年付息的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672709.PDF"
+    },
+    {
+     "stock_code": "688516",
+     "short_name": "奥特维",
+     "title": "无锡奥特维科技股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672650.PDF"
+    },
+    {
+     "stock_code": "688526",
+     "short_name": "科前生物",
+     "title": "武汉科前生物股份有限公司关于独立董事任期满六年辞职的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672568.PDF"
+    },
+    {
+     "stock_code": "688531",
+     "short_name": "日联科技",
+     "title": "关于注销募集资金专项账户的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672600.PDF"
+    },
+    {
+     "stock_code": "688553",
+     "short_name": "汇宇制药",
+     "title": "2026年第二次临时股东会会议资料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672510.PDF"
+    },
+    {
+     "stock_code": "688571",
+     "short_name": "杭华股份",
+     "title": "杭华油墨股份有限公司关于召开2026年第三季度业绩说明会的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672617.PDF"
+    },
+    {
+     "stock_code": "688610",
+     "short_name": "埃科光电",
+     "title": "2026年第三次临时股东会会议资料",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672619.PDF"
+    },
+    {
+     "stock_code": "688786",
+     "short_name": "悦安新材",
+     "title": "江西悦安新材料股份有限公司关于增加2026年度日常关联交易额度预计的公告",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672644.PDF"
+    },
+    {
+     "stock_code": "688786",
+     "short_name": "悦安新材",
+     "title": "江西悦安新材料股份有限公司关于召开2026年第一次临时股东会的通知",
+     "publish_time": "2026-11-17T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-17/1225672656.PDF"
+    }
+   ]
   },
   "today": {
    "label": "今天",
    "start_date": "2026-11-16",
    "end_date": "2026-11-16",
-   "count": 81,
+   "count": 120,
    "data": [
+    {
+     "stock_code": "300430",
+     "short_name": "*ST益通",
+     "title": "关于控股股东部分股份流拍暨第二次司法拍卖的提示性公告",
+     "publish_time": "2026-11-16T16:26:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672715.PDF"
+    },
+    {
+     "stock_code": "300135",
+     "short_name": "宝利国际",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T16:24:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672696.PDF"
+    },
+    {
+     "stock_code": "301018",
+     "short_name": "申菱环境",
+     "title": "关于注销募集资金专户的公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672698.PDF"
+    },
+    {
+     "stock_code": "301129",
+     "short_name": "瑞纳智能",
+     "title": "2026-059-瑞纳智能2026年前三季度分红派息实施公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672695.PDF"
+    },
+    {
+     "stock_code": "301125",
+     "short_name": "腾亚精工",
+     "title": "关于开立募集资金临时补流专项账户并签订募集资金三方监管协议及补充协议的公告",
+     "publish_time": "2026-11-16T16:24:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672697.PDF"
+    },
+    {
+     "stock_code": "300955",
+     "short_name": "嘉亨家化",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T16:18:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672670.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于控股股东部分股份办理质押及解除质押的公告",
+     "publish_time": "2026-11-16T16:16:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672638.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于获得医疗器械注册证的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672639.PDF"
+    },
+    {
+     "stock_code": "301039",
+     "short_name": "中集车辆",
+     "title": "关于证券事务代表辞任的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672637.PDF"
+    },
+    {
+     "stock_code": "301175",
+     "short_name": "中科环保",
+     "title": "关于使用部分闲置募集资金进行现金管理的进展公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672657.PDF"
+    },
+    {
+     "stock_code": "300915",
+     "short_name": "海融科技",
+     "title": "关于使用闲置自有资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-16T16:04:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672624.PDF"
+    },
+    {
+     "stock_code": "301200",
+     "short_name": "大族数控",
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "publish_time": "2026-11-16T16:02:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672616.PDF"
+    },
+    {
+     "stock_code": "301068",
+     "short_name": "大地海洋",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-16T16:00:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672611.PDF"
+    },
+    {
+     "stock_code": "000783",
+     "short_name": "长江证券",
+     "title": "长江证券股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-11-16T15:58:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672577.PDF"
+    },
+    {
+     "stock_code": "301611",
+     "short_name": "珂玛科技",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:56:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672579.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "深圳民爆光电股份有限公司发行股份购买资产暨关联交易报告书（申报稿）",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672543.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "北京市金杜律师事务所关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之法律意见书",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672545.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "关于发行股份购买资产暨关联交易申请文件获得深圳证券交易所受理的公告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672542.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "中信证券股份有限公司关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之独立财务顾问报告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672544.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于公司产品纳入国家医保目录的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672536.PDF"
+    },
+    {
+     "stock_code": "300897",
+     "short_name": "山科智能",
+     "title": "关于与专业投资机构共同投资暨关联交易的进展公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672541.PDF"
+    },
+    {
+     "stock_code": "301358",
+     "short_name": "湖南裕能",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672546.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于SQ-24071滴眼液Ⅰ期临床试验首例受试者入组的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672535.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于参加2026年度深圳辖区上市公司投资者网上集体接待日的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672538.PDF"
+    },
+    {
+     "stock_code": "301122",
+     "short_name": "采纳股份",
+     "title": "关于使用部分闲置自有资金进行现金管理的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672540.PDF"
+    },
+    {
+     "stock_code": "300183",
+     "short_name": "东软载波",
+     "title": "关于召开2026年第二次临时股东会的提示性公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672539.PDF"
+    },
+    {
+     "stock_code": "300194",
+     "short_name": "福安药业",
+     "title": "关于子公司产品纳入《国家医保药品目录》的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672532.PDF"
+    },
+    {
+     "stock_code": "300996",
+     "short_name": "普联软件",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672547.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于向控股子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672537.PDF"
+    },
+    {
+     "stock_code": "301370",
+     "short_name": "国科恒泰",
+     "title": "关于为下属子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672534.PDF"
+    },
+    {
+     "stock_code": "300283",
+     "short_name": "温州宏丰",
+     "title": "关于公司获得专利证书的公告",
+     "publish_time": "2026-11-16T15:42:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672533.PDF"
+    },
     {
      "stock_code": "002973",
      "short_name": "侨银股份",
@@ -581,6 +1975,62 @@
      "title": "关于公司重组人白蛋白注射液（水稻）纳入2026年国家医保目录的自愿性披露公告",
      "publish_time": "2026-11-16T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672365.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "北京国枫律师事务所关于沈阳宏远电磁线股份有限公司2026年第四次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672664.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "2026年第四次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672666.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "芜湖莫森泰克汽车科技股份有限公司超额配售选择权实施公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672603.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "国投证券股份有限公司关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市超额配售选择权实施情况的核查意见",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672604.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "北京嘉润律师事务所关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市之超额配售选择权实施情况的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672605.PDF"
+    },
+    {
+     "stock_code": "920375",
+     "short_name": "派诺科技",
+     "title": "回购股份注销完成暨股份变动公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672601.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "北京炜衡（宁波）律师事务所关于宁波球冠电缆股份有限公司2026年第二次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672667.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "2026年第二次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672668.PDF"
     }
    ]
   },
@@ -588,8 +2038,225 @@
    "label": "近2天",
    "start_date": "2026-11-15",
    "end_date": "2026-11-16",
-   "count": 81,
+   "count": 120,
    "data": [
+    {
+     "stock_code": "300430",
+     "short_name": "*ST益通",
+     "title": "关于控股股东部分股份流拍暨第二次司法拍卖的提示性公告",
+     "publish_time": "2026-11-16T16:26:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672715.PDF"
+    },
+    {
+     "stock_code": "300135",
+     "short_name": "宝利国际",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T16:24:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672696.PDF"
+    },
+    {
+     "stock_code": "301018",
+     "short_name": "申菱环境",
+     "title": "关于注销募集资金专户的公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672698.PDF"
+    },
+    {
+     "stock_code": "301129",
+     "short_name": "瑞纳智能",
+     "title": "2026-059-瑞纳智能2026年前三季度分红派息实施公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672695.PDF"
+    },
+    {
+     "stock_code": "301125",
+     "short_name": "腾亚精工",
+     "title": "关于开立募集资金临时补流专项账户并签订募集资金三方监管协议及补充协议的公告",
+     "publish_time": "2026-11-16T16:24:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672697.PDF"
+    },
+    {
+     "stock_code": "300955",
+     "short_name": "嘉亨家化",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T16:18:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672670.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于控股股东部分股份办理质押及解除质押的公告",
+     "publish_time": "2026-11-16T16:16:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672638.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于获得医疗器械注册证的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672639.PDF"
+    },
+    {
+     "stock_code": "301039",
+     "short_name": "中集车辆",
+     "title": "关于证券事务代表辞任的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672637.PDF"
+    },
+    {
+     "stock_code": "301175",
+     "short_name": "中科环保",
+     "title": "关于使用部分闲置募集资金进行现金管理的进展公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672657.PDF"
+    },
+    {
+     "stock_code": "300915",
+     "short_name": "海融科技",
+     "title": "关于使用闲置自有资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-16T16:04:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672624.PDF"
+    },
+    {
+     "stock_code": "301200",
+     "short_name": "大族数控",
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "publish_time": "2026-11-16T16:02:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672616.PDF"
+    },
+    {
+     "stock_code": "301068",
+     "short_name": "大地海洋",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-16T16:00:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672611.PDF"
+    },
+    {
+     "stock_code": "000783",
+     "short_name": "长江证券",
+     "title": "长江证券股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-11-16T15:58:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672577.PDF"
+    },
+    {
+     "stock_code": "301611",
+     "short_name": "珂玛科技",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:56:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672579.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "深圳民爆光电股份有限公司发行股份购买资产暨关联交易报告书（申报稿）",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672543.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "北京市金杜律师事务所关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之法律意见书",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672545.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "关于发行股份购买资产暨关联交易申请文件获得深圳证券交易所受理的公告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672542.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "中信证券股份有限公司关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之独立财务顾问报告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672544.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于公司产品纳入国家医保目录的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672536.PDF"
+    },
+    {
+     "stock_code": "300897",
+     "short_name": "山科智能",
+     "title": "关于与专业投资机构共同投资暨关联交易的进展公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672541.PDF"
+    },
+    {
+     "stock_code": "301358",
+     "short_name": "湖南裕能",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672546.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于SQ-24071滴眼液Ⅰ期临床试验首例受试者入组的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672535.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于参加2026年度深圳辖区上市公司投资者网上集体接待日的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672538.PDF"
+    },
+    {
+     "stock_code": "301122",
+     "short_name": "采纳股份",
+     "title": "关于使用部分闲置自有资金进行现金管理的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672540.PDF"
+    },
+    {
+     "stock_code": "300183",
+     "short_name": "东软载波",
+     "title": "关于召开2026年第二次临时股东会的提示性公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672539.PDF"
+    },
+    {
+     "stock_code": "300194",
+     "short_name": "福安药业",
+     "title": "关于子公司产品纳入《国家医保药品目录》的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672532.PDF"
+    },
+    {
+     "stock_code": "300996",
+     "short_name": "普联软件",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672547.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于向控股子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672537.PDF"
+    },
+    {
+     "stock_code": "301370",
+     "short_name": "国科恒泰",
+     "title": "关于为下属子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672534.PDF"
+    },
+    {
+     "stock_code": "300283",
+     "short_name": "温州宏丰",
+     "title": "关于公司获得专利证书的公告",
+     "publish_time": "2026-11-16T15:42:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672533.PDF"
+    },
     {
      "stock_code": "002973",
      "short_name": "侨银股份",
@@ -1156,6 +2823,62 @@
      "title": "关于公司重组人白蛋白注射液（水稻）纳入2026年国家医保目录的自愿性披露公告",
      "publish_time": "2026-11-16T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672365.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "北京国枫律师事务所关于沈阳宏远电磁线股份有限公司2026年第四次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672664.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "2026年第四次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672666.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "芜湖莫森泰克汽车科技股份有限公司超额配售选择权实施公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672603.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "国投证券股份有限公司关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市超额配售选择权实施情况的核查意见",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672604.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "北京嘉润律师事务所关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市之超额配售选择权实施情况的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672605.PDF"
+    },
+    {
+     "stock_code": "920375",
+     "short_name": "派诺科技",
+     "title": "回购股份注销完成暨股份变动公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672601.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "北京炜衡（宁波）律师事务所关于宁波球冠电缆股份有限公司2026年第二次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672667.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "2026年第二次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672668.PDF"
     }
    ]
   },
@@ -1163,8 +2886,225 @@
    "label": "近3天",
    "start_date": "2026-11-14",
    "end_date": "2026-11-16",
-   "count": 1305,
+   "count": 1344,
    "data": [
+    {
+     "stock_code": "300430",
+     "short_name": "*ST益通",
+     "title": "关于控股股东部分股份流拍暨第二次司法拍卖的提示性公告",
+     "publish_time": "2026-11-16T16:26:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672715.PDF"
+    },
+    {
+     "stock_code": "300135",
+     "short_name": "宝利国际",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T16:24:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672696.PDF"
+    },
+    {
+     "stock_code": "301018",
+     "short_name": "申菱环境",
+     "title": "关于注销募集资金专户的公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672698.PDF"
+    },
+    {
+     "stock_code": "301129",
+     "short_name": "瑞纳智能",
+     "title": "2026-059-瑞纳智能2026年前三季度分红派息实施公告",
+     "publish_time": "2026-11-16T16:24:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672695.PDF"
+    },
+    {
+     "stock_code": "301125",
+     "short_name": "腾亚精工",
+     "title": "关于开立募集资金临时补流专项账户并签订募集资金三方监管协议及补充协议的公告",
+     "publish_time": "2026-11-16T16:24:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672697.PDF"
+    },
+    {
+     "stock_code": "300955",
+     "short_name": "嘉亨家化",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T16:18:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672670.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于控股股东部分股份办理质押及解除质押的公告",
+     "publish_time": "2026-11-16T16:16:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672638.PDF"
+    },
+    {
+     "stock_code": "300832",
+     "short_name": "新产业",
+     "title": "关于获得医疗器械注册证的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672639.PDF"
+    },
+    {
+     "stock_code": "301039",
+     "short_name": "中集车辆",
+     "title": "关于证券事务代表辞任的公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672637.PDF"
+    },
+    {
+     "stock_code": "301175",
+     "short_name": "中科环保",
+     "title": "关于使用部分闲置募集资金进行现金管理的进展公告",
+     "publish_time": "2026-11-16T16:16:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672657.PDF"
+    },
+    {
+     "stock_code": "300915",
+     "short_name": "海融科技",
+     "title": "关于使用闲置自有资金进行现金管理到期赎回的公告",
+     "publish_time": "2026-11-16T16:04:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672624.PDF"
+    },
+    {
+     "stock_code": "301200",
+     "short_name": "大族数控",
+     "title": "关于取得金融机构股票回购专项贷款承诺函的公告",
+     "publish_time": "2026-11-16T16:02:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672616.PDF"
+    },
+    {
+     "stock_code": "301068",
+     "short_name": "大地海洋",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-16T16:00:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672611.PDF"
+    },
+    {
+     "stock_code": "000783",
+     "short_name": "长江证券",
+     "title": "长江证券股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）在深圳证券交易所上市的公告",
+     "publish_time": "2026-11-16T15:58:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672577.PDF"
+    },
+    {
+     "stock_code": "301611",
+     "short_name": "珂玛科技",
+     "title": "关于为子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:56:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672579.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "深圳民爆光电股份有限公司发行股份购买资产暨关联交易报告书（申报稿）",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672543.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "北京市金杜律师事务所关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之法律意见书",
+     "publish_time": "2026-11-16T15:48:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672545.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "关于发行股份购买资产暨关联交易申请文件获得深圳证券交易所受理的公告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672542.PDF"
+    },
+    {
+     "stock_code": "301362",
+     "short_name": "民爆光电",
+     "title": "中信证券股份有限公司关于深圳民爆光电股份有限公司发行股份购买资产暨关联交易之独立财务顾问报告",
+     "publish_time": "2026-11-16T15:48:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672544.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于公司产品纳入国家医保目录的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672536.PDF"
+    },
+    {
+     "stock_code": "300897",
+     "short_name": "山科智能",
+     "title": "关于与专业投资机构共同投资暨关联交易的进展公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672541.PDF"
+    },
+    {
+     "stock_code": "301358",
+     "short_name": "湖南裕能",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-16T15:44:26+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672546.PDF"
+    },
+    {
+     "stock_code": "300573",
+     "short_name": "兴齐眼药",
+     "title": "关于SQ-24071滴眼液Ⅰ期临床试验首例受试者入组的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672535.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于参加2026年度深圳辖区上市公司投资者网上集体接待日的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672538.PDF"
+    },
+    {
+     "stock_code": "301122",
+     "short_name": "采纳股份",
+     "title": "关于使用部分闲置自有资金进行现金管理的公告",
+     "publish_time": "2026-11-16T15:44:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672540.PDF"
+    },
+    {
+     "stock_code": "300183",
+     "short_name": "东软载波",
+     "title": "关于召开2026年第二次临时股东会的提示性公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672539.PDF"
+    },
+    {
+     "stock_code": "300194",
+     "short_name": "福安药业",
+     "title": "关于子公司产品纳入《国家医保药品目录》的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672532.PDF"
+    },
+    {
+     "stock_code": "300996",
+     "short_name": "普联软件",
+     "title": "关于变更签字注册会计师的公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672547.PDF"
+    },
+    {
+     "stock_code": "301002",
+     "short_name": "崧盛股份",
+     "title": "关于向控股子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672537.PDF"
+    },
+    {
+     "stock_code": "301370",
+     "short_name": "国科恒泰",
+     "title": "关于为下属子公司提供担保的进展公告",
+     "publish_time": "2026-11-16T15:44:08+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672534.PDF"
+    },
+    {
+     "stock_code": "300283",
+     "short_name": "温州宏丰",
+     "title": "关于公司获得专利证书的公告",
+     "publish_time": "2026-11-16T15:42:10+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672533.PDF"
+    },
     {
      "stock_code": "002973",
      "short_name": "侨银股份",
@@ -1731,6 +3671,62 @@
      "title": "关于公司重组人白蛋白注射液（水稻）纳入2026年国家医保目录的自愿性披露公告",
      "publish_time": "2026-11-16T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672365.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "北京国枫律师事务所关于沈阳宏远电磁线股份有限公司2026年第四次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672664.PDF"
+    },
+    {
+     "stock_code": "920018",
+     "short_name": "宏远股份",
+     "title": "2026年第四次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672666.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "芜湖莫森泰克汽车科技股份有限公司超额配售选择权实施公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672603.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "国投证券股份有限公司关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市超额配售选择权实施情况的核查意见",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672604.PDF"
+    },
+    {
+     "stock_code": "920162",
+     "short_name": "莫森泰克",
+     "title": "北京嘉润律师事务所关于芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票并在北京证券交易所上市之超额配售选择权实施情况的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672605.PDF"
+    },
+    {
+     "stock_code": "920375",
+     "short_name": "派诺科技",
+     "title": "回购股份注销完成暨股份变动公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672601.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "北京炜衡（宁波）律师事务所关于宁波球冠电缆股份有限公司2026年第二次临时股东会的法律意见书",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672667.PDF"
+    },
+    {
+     "stock_code": "920682",
+     "short_name": "球冠电缆",
+     "title": "2026年第二次临时股东会决议公告",
+     "publish_time": "2026-11-16T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-16/1225672668.PDF"
     },
     {
      "stock_code": "000027",
