@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-22T17:00:33+08:00",
- "last_scraped_at": "2026-11-22T17:00:33+08:00",
+ "generated_at": "2026-11-22T17:30:25+08:00",
+ "last_scraped_at": "2026-11-22T17:30:25+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-23",
    "end_date": "2026-11-23",
-   "count": 91,
+   "count": 94,
    "data": [
     {
      "stock_code": "000656",
@@ -352,6 +352,20 @@
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682870.PDF"
     },
     {
+     "stock_code": "600196",
+     "short_name": "复星医药",
+     "title": "复星医药关于以集中竞价交易方式回购A股的方案暨回购报告书",
+     "publish_time": "2026-11-23T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682901.PDF"
+    },
+    {
+     "stock_code": "600196",
+     "short_name": "复星医药",
+     "title": "复星医药第十届董事会第四十五次会议（临时会议）决议公告",
+     "publish_time": "2026-11-23T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682902.PDF"
+    },
+    {
      "stock_code": "600248",
      "short_name": "陕建股份",
      "title": "陕西建工集团股份有限公司关于公司及子公司涉及诉讼、仲裁的公告",
@@ -392,6 +406,13 @@
      "title": "京沪高速铁路股份有限公司关于向控股子公司提供委托贷款进展的公告",
      "publish_time": "2026-11-23T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682848.PDF"
+    },
+    {
+     "stock_code": "603061",
+     "short_name": "金海通",
+     "title": "关于以集中竞价交易方式回购公司股份的回购报告书",
+     "publish_time": "2026-11-23T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-23/1225682900.PDF"
     },
     {
      "stock_code": "603332",
