@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T08:00:24+08:00",
- "last_scraped_at": "2026-11-26T08:00:24+08:00",
+ "generated_at": "2026-11-26T08:30:26+08:00",
+ "last_scraped_at": "2026-11-26T08:30:26+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
@@ -13,8 +13,15 @@
    "label": "今天",
    "start_date": "2026-11-26",
    "end_date": "2026-11-26",
-   "count": 1106,
+   "count": 1107,
    "data": [
+    {
+     "stock_code": "300748",
+     "short_name": "金力永磁",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-11-26T07:59:35+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-26/1225689322.PDF"
+    },
     {
      "stock_code": "301718",
      "short_name": "通则康威",
@@ -7763,8 +7770,15 @@
    "label": "近2天",
    "start_date": "2026-11-25",
    "end_date": "2026-11-26",
-   "count": 2227,
+   "count": 2228,
    "data": [
+    {
+     "stock_code": "300748",
+     "short_name": "金力永磁",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-11-26T07:59:35+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-26/1225689322.PDF"
+    },
     {
      "stock_code": "301718",
      "short_name": "通则康威",
@@ -23360,8 +23374,15 @@
    "label": "近3天",
    "start_date": "2026-11-24",
    "end_date": "2026-11-26",
-   "count": 3439,
+   "count": 3440,
    "data": [
+    {
+     "stock_code": "300748",
+     "short_name": "金力永磁",
+     "title": "H股公告-翌日披露报表",
+     "publish_time": "2026-11-26T07:59:35+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-26/1225689322.PDF"
+    },
     {
      "stock_code": "301718",
      "short_name": "通则康威",
