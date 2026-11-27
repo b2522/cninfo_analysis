@@ -1,13 +1,62 @@
 {
- "generated_at": "2026-11-27T16:00:27+08:00",
- "last_scraped_at": "2026-11-27T16:00:27+08:00",
+ "generated_at": "2026-11-27T16:03:04+08:00",
+ "last_scraped_at": "2026-11-27T16:03:04+08:00",
  "ranges": {
   "tomorrow": {
    "label": "明天",
    "start_date": "2026-11-28",
    "end_date": "2026-11-28",
-   "count": 74,
+   "count": 82,
    "data": [
+    {
+     "stock_code": "000402",
+     "short_name": "金 融 街",
+     "title": "关于为全资子公司债务融资提供担保的公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691630.PDF"
+    },
+    {
+     "stock_code": "000525",
+     "short_name": "红太阳",
+     "title": "关于公司董事长及部分非独立董事辞职的公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691724.PDF"
+    },
+    {
+     "stock_code": "002694",
+     "short_name": "*ST顾地",
+     "title": "关于累计诉讼、仲裁情况的公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691733.PDF"
+    },
+    {
+     "stock_code": "002694",
+     "short_name": "*ST顾地",
+     "title": "关于独立董事取得独立董事培训证明的公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691734.PDF"
+    },
+    {
+     "stock_code": "002896",
+     "short_name": "中大力德",
+     "title": "关于全资子公司接受关联方财务资助暨关联交易的进展公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691714.PDF"
+    },
+    {
+     "stock_code": "002961",
+     "short_name": "瑞达期货",
+     "title": "关于全资子公司为全资子公司向银行申请综合授信额度提供担保的进展公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691725.PDF"
+    },
+    {
+     "stock_code": "300404",
+     "short_name": "博济医药",
+     "title": "关于对外担保的进展公告",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691705.PDF"
+    },
     {
      "stock_code": "600027",
      "short_name": "华电国际",
@@ -84,6 +133,13 @@
      "title": "华鲁恒升关于召开2026年第三季度业绩说明会的公告",
      "publish_time": "2026-11-28T00:00:00+08:00",
      "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691626.PDF"
+    },
+    {
+     "stock_code": "600448",
+     "short_name": "华纺股份",
+     "title": "华纺股份：2026年第一次临时股东会材料",
+     "publish_time": "2026-11-28T00:00:00+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-28/1225691755.PDF"
     },
     {
      "stock_code": "600456",
@@ -532,8 +588,50 @@
    "label": "今天",
    "start_date": "2026-11-27",
    "end_date": "2026-11-27",
-   "count": 931,
+   "count": 937,
    "data": [
+    {
+     "stock_code": "300207",
+     "short_name": "欣旺达",
+     "title": "关于欣旺达动力科技股份有限公司增资扩股的工商变更登记及董事会换届选举完成暨不再纳入合并报表范围的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691694.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "关于续聘会计师事务所的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691709.PDF"
+    },
+    {
+     "stock_code": "300880",
+     "short_name": "迦南智能",
+     "title": "关于签署战略合作框架协议的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691690.PDF"
+    },
+    {
+     "stock_code": "301042",
+     "short_name": "安联锐视",
+     "title": "关于涉及重大诉讼的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691688.PDF"
+    },
+    {
+     "stock_code": "301310",
+     "short_name": "鑫宏业",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691683.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "第五届董事会第二十二次会议决议公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691708.PDF"
+    },
     {
      "stock_code": "002806",
      "short_name": "华锋股份",
@@ -7057,8 +7155,50 @@
    "label": "近2天",
    "start_date": "2026-11-26",
    "end_date": "2026-11-27",
-   "count": 2094,
+   "count": 2100,
    "data": [
+    {
+     "stock_code": "300207",
+     "short_name": "欣旺达",
+     "title": "关于欣旺达动力科技股份有限公司增资扩股的工商变更登记及董事会换届选举完成暨不再纳入合并报表范围的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691694.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "关于续聘会计师事务所的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691709.PDF"
+    },
+    {
+     "stock_code": "300880",
+     "short_name": "迦南智能",
+     "title": "关于签署战略合作框架协议的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691690.PDF"
+    },
+    {
+     "stock_code": "301042",
+     "short_name": "安联锐视",
+     "title": "关于涉及重大诉讼的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691688.PDF"
+    },
+    {
+     "stock_code": "301310",
+     "short_name": "鑫宏业",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691683.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "第五届董事会第二十二次会议决议公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691708.PDF"
+    },
     {
      "stock_code": "002806",
      "short_name": "华锋股份",
@@ -21723,8 +21863,50 @@
    "label": "近3天",
    "start_date": "2026-11-25",
    "end_date": "2026-11-27",
-   "count": 3215,
+   "count": 3221,
    "data": [
+    {
+     "stock_code": "300207",
+     "short_name": "欣旺达",
+     "title": "关于欣旺达动力科技股份有限公司增资扩股的工商变更登记及董事会换届选举完成暨不再纳入合并报表范围的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691694.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "关于续聘会计师事务所的公告",
+     "publish_time": "2026-11-27T15:58:29+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691709.PDF"
+    },
+    {
+     "stock_code": "300880",
+     "short_name": "迦南智能",
+     "title": "关于签署战略合作框架协议的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691690.PDF"
+    },
+    {
+     "stock_code": "301042",
+     "short_name": "安联锐视",
+     "title": "关于涉及重大诉讼的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691688.PDF"
+    },
+    {
+     "stock_code": "301310",
+     "short_name": "鑫宏业",
+     "title": "关于完成工商变更登记并换发营业执照的公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691683.PDF"
+    },
+    {
+     "stock_code": "301517",
+     "short_name": "陕西华达",
+     "title": "第五届董事会第二十二次会议决议公告",
+     "publish_time": "2026-11-27T15:58:28+08:00",
+     "pdf_url": "https://static.cninfo.com.cn/finalpage/2026-11-27/1225691708.PDF"
+    },
     {
      "stock_code": "002806",
      "short_name": "华锋股份",
